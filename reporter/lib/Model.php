@@ -2,13 +2,22 @@
 
 namespace reporter\lib;
 
+use reporter\lib\Config;
+
 class Model extends \PDO
 {
     public function __construct()
     {
-        $dsn = 'mysql:host=localhost;dbname=reporter';
-        $username = 'reporter';
-        $passwd = 'reporter';
+        // 读取数据库配置
+        $databaseConfig = Config::all('database');
+        $type = $databaseConfig['type'];
+        $host = $databaseConfig['host'];
+        $database = $databaseConfig['database'];
+        $username = $databaseConfig['username'];
+        $passwd = $databaseConfig['password'];
+
+        $dsn = $type . ':host='. $host .';dbname=' . $database;
+
         try{
             parent::__construct($dsn, $username, $passwd);
         }catch (\PDOException $e){

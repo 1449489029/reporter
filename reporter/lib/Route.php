@@ -2,6 +2,8 @@
 
 namespace reporter\lib;
 
+use reporter\lib\Config;
+
 
 /**
  * 用于解析访问的路由路径找到对应的控制器
@@ -13,12 +15,12 @@ class Route
     /**
      * @var string 控制器名称
      */
-    public $controller = 'Index';
+    public $controller;
 
     /**
      * @var string 方法名称
      */
-    public $action = 'index';
+    public $action;
 
     /**
      * @param array 查询参数
@@ -36,6 +38,9 @@ class Route
      */
     public function __construct()
     {
+        $this->controller = Config::get('controller', 'web');
+        $this->action = Config::get('action', 'web');
+
         if (isset($_SERVER['REQUEST_URI'])) {
             $this->formatUrlParams($_SERVER['REQUEST_URI']);
         }
