@@ -2,24 +2,144 @@
 
 namespace reporter;
 
+use reporter\lib\Log;
+use reporter\lib\Route;
+use reporter\lib\Request;
+
 class Base
 {
+    /**
+     * @var \reporter\lib\Request
+     */
+    public static $Request;
+
+    /**
+     * @var \reporter\lib\Route
+     */
+    public static $Route;
+
+    /**
+     * 开启框架
+     */
     public static function run()
     {
-        $Route = new \reporter\lib\Route();
+        self::$Request = new Request();
+        self::start();
 
-        $controllerName = '\application\\controller\\' . $Route->controller;
-        $actionName = $Route->action;
+        try {
+            // 定义控制器名
+            $controllerName = '\application\\' . self::$Route->model . '\controller\\' . self::$Route->controller;
+            // 定义控制器的指定函数名
+            $actionName = self::$Route->action;
 
-        // 实例化类
-        $Controller = new $controllerName();
-        if(!empty($Route->queryParams)){
-            // 调用函数并传递参数
-            call_user_func_array([$Controller, $actionName], $Route->queryParams);
-        }else{
-            // 只调用函数
-            $Controller->$actionName();
+            // 实例化类
+            $Controller = new $controllerName();
+            if (!empty(self::$Route->queryParams)) {
+                // 调用函数并传递参数
+                call_user_func_array([$Controller, $actionName], self::$Route->queryParams);
+            } else {
+                // 只调用函数
+                $Controller->$actionName();
+            }
+        } catch (\Exception $e) {
+            $Log = Log::init();
+            $error_info = [
+                'file' => $e->getFile(),
+                'line' => $e->getLine(),
+                'message' => $e->getMessage()
+            ];
+            $Log::error($error_info);
         }
+
+        self::end();
+
+    }
+
+    /**
+     * 开始运行时触发
+     */
+    protected static function start()
+    {
+        $Log = Log::init();
+
+        $Log::log('---------------------------------------------------------------');
+        $headLog = '[ ' . date(DATE_ATOM) . ' ] ' . self::$Request->clientIP . ' ' . self::$Request->method . ' ' . self::$Request->domain . self::$Request->uri;
+        $Log::log($headLog);
+
+        $Route = self::$Route = new Route(self::$Request);
+
+        $routeData = [
+            $Route->model,
+            $Route->controller,
+            $Route->action
+        ];
+        $routeLog = '[ ROUTE ] ' . print_r($routeData, true);
+        $Log::record($routeLog);
+        $headerLog = '[ HEADER ] ' . print_r(self::$Request->getHeader(), true);
+        $Log::record($headerLog);
+        $paramsLog = '[ PARAM ] ' . print_r(self::$Request->getParams(), true);
+        $Log::record($paramsLog);
+    }
+
+    /**
+     * 结束运行时触发
+     */
+    protected static function end()
+    {
+        $Log = Log::init();
+
+        $useTime = self::getUseTime();
+        $throughputRate = self::getThroughputRate($useTime);
+        $memoryUsage = self::getMemoryUsage();
+        $fileIncludeCount = self::getFileIncludeCount();
+        $headLog = '[运行时间：' . $useTime . 's] [吞吐率：' . $throughputRate . '] [内存消耗：' . $memoryUsage . '] [文件加载：' . $fileIncludeCount . ']';
+        $Log::log($headLog);
+
+        // 写入日志
+        $Log::writeAll();
+    }
+
+    /**
+     * 计算运行耗时
+     *
+     * @return float
+     */
+    protected static function getUseTime()
+    {
+        return number_format((microtime(true) - START_TIME), 6);
+    }
+
+    /**
+     * 计算当前访问的吞吐率情况
+     *
+     * @param float $useTime 运行耗时
+     * @return string
+     */
+    protected static function getThroughputRate($useTime)
+    {
+        return number_format(1 / $useTime, 2) . 'req/s';
+    }
+
+    /**
+     * 获取内存消耗
+     *
+     * @return string
+     */
+    protected static function getMemoryUsage()
+    {
+        $result = ((memory_get_usage() - START_MEMORY) / 1024) . 'Kb';
+
+        return $result;
+    }
+
+    /**
+     * 获取文件加载数量
+     *
+     * @return int
+     */
+    protected static function getFileIncludeCount()
+    {
+        return count(get_included_files());
     }
 
 }

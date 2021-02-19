@@ -1,7 +1,8 @@
 <?php
 
-namespace application\controller;
+namespace application\index\controller;
 
+use mysql_xdevapi\Exception;
 use reporter\lib\Model;
 use reporter\lib\Controller;
 use reporter\lib\Log;
@@ -31,6 +32,10 @@ class Index extends Controller
         $Log::record('测试写入日志2');
         $Log::record('测试写入日志3');
         $Log::record('测试写入日志4');
+        throw new \Exception('ddd');
+
+        $a = apache_request_headers();
+        print_r($a);
 
         print_r($_SERVER);
     }

@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * 打印数据
+ *
+ * @param mixed $var 要打印的数据
+ * @return void
+*/
 function show($var)
 {
     if (is_bool($var)) {

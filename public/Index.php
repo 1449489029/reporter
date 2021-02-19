@@ -13,9 +13,21 @@
  */
 
 // 定义常量
+
+// 项目更目录
 define('ROOT_PATH', __DIR__ . '/..');
+// 核心文件目录
 define('CORE_PATH', ROOT_PATH . '/reporter');
+// 应用文件目录
 define('APP_PATH', ROOT_PATH . '/application');
+// 配置文件目录
+define('CONFIG_PATH', ROOT_PATH . '/config');
+// 日志目录
+define('LOG_PATH', ROOT_PATH . '/runtime/log');
+// 开始运行时间
+define('START_TIME', microtime(true));
+// 开始运行时的内存使用量
+define('START_MEMORY', memory_get_usage());
 
 define('IS_DEBUG', true);
 
