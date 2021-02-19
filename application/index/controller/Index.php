@@ -4,10 +4,11 @@ namespace application\controller;
 
 use reporter\lib\Model;
 use reporter\lib\Controller;
+use reporter\lib\Log;
 
 class Index extends Controller
 {
-    public function index($id, $name)
+    public function index()
     {
         $Model = new Model();
         $result = $Model->query('SELECT * FROM `mc_missed_record`');
@@ -20,5 +21,17 @@ class Index extends Controller
     {
         $this->assign('name', '显示视图');
         $this->display('/index/show_view.html');
+    }
+
+    public function write()
+    {
+        $Log = Log::init();
+
+        $Log::record(['测试写入日志1']);
+        $Log::record('测试写入日志2');
+        $Log::record('测试写入日志3');
+        $Log::record('测试写入日志4');
+
+        print_r($_SERVER);
     }
 }

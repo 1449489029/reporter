@@ -13,6 +13,11 @@ use reporter\lib\Config;
 class Route
 {
     /**
+     * @var string $model 模块
+     */
+    public $model;
+
+    /**
      * @var string 控制器名称
      */
     public $controller;
@@ -36,14 +41,12 @@ class Route
      *     break;
      *  }
      */
-    public function __construct()
+    public function __construct(\reporter\lib\Request $Request)
     {
+        $this->model = Config::get('model', 'web');
         $this->controller = Config::get('controller', 'web');
         $this->action = Config::get('action', 'web');
-
-        if (isset($_SERVER['REQUEST_URI'])) {
-            $this->formatUrlParams($_SERVER['REQUEST_URI']);
-        }
+        $this->formatUrlParams($Request->uri);
     }
 
 
@@ -57,20 +60,26 @@ class Route
     {
         $url = trim($url, '/');
         if (!empty($url)) {
-            $urlArr = explode('/', $url);
+            $urlArr = explode('?', $url);
+            $urlArr = explode('/', $urlArr[0]);
         } else {
             $urlArr = [];
         }
         $urlArrLen = count($urlArr);
         if ($urlArrLen == 1) {
-            $this->controller = $urlArr[0];
+            $this->model = $urlArr[0];
         } else if ($urlArrLen == 2) {
-            $this->controller = $urlArr[0];
-            $this->action = $urlArr[1];
-        } else if ($urlArrLen >= 3) {
-            $this->controller = $urlArr[0];
-            $this->action = $urlArr[1];
-            $i = 2;
+            $this->model = $urlArr[0];
+            $this->controller = $urlArr[1];
+        } else if ($urlArrLen == 3) {
+            $this->model = $urlArr[0];
+            $this->controller = $urlArr[1];
+            $this->action = $urlArr[2];
+        } else if ($urlArrLen >= 4) {
+            $this->model = $urlArr[0];
+            $this->controller = $urlArr[1];
+            $this->action = $urlArr[2];
+            $i = 3;
             while ($urlArrLen > $i) {
                 // 收集参数
                 if (isset($urlArr[$i + 1])) {
