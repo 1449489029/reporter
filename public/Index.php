@@ -10,6 +10,7 @@
  * 2.引入函数库
  * 3.开启自动加载
  * 4.开启框架
+ * 5.引入Composer类库
  */
 
 // 定义常量
@@ -31,6 +32,9 @@ define('START_MEMORY', memory_get_usage());
 
 define('IS_DEBUG', true);
 
+// 引入Composer类库
+require ROOT_PATH . '/vendor/autoload.php';
+
 if (IS_DEBUG) {
     // 打开错误提示
     ini_set("display_errors", "On");
@@ -40,8 +44,6 @@ if (IS_DEBUG) {
     // 关闭错误提示
     ini_set("display_errors", "Off");
 }
-
-
 // 引入函数库
 require CORE_PATH . '/common/function.php';
 

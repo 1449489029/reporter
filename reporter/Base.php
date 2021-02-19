@@ -25,6 +25,7 @@ class Base
     {
         self::$Request = new Request();
         self::start();
+        $Log = Log::init();
 
         try {
             // 定义控制器名
@@ -42,13 +43,37 @@ class Base
                 $Controller->$actionName();
             }
         } catch (\Exception $e) {
-            $Log = Log::init();
             $error_info = [
                 'file' => $e->getFile(),
                 'line' => $e->getLine(),
                 'message' => $e->getMessage()
             ];
             $Log::error($error_info);
+
+            if(IS_DEBUG == true){
+                $whoops = new \Whoops\Run;
+                $whoops->allowQuit(false);
+                $whoops->writeToOutput(false);
+                $whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
+                $html = $whoops->handleException($e);
+                echo $html;
+            }
+        } catch (\Error $e) {
+            $error_info = [
+                'file' => $e->getFile(),
+                'line' => $e->getLine(),
+                'message' => $e->getMessage()
+            ];
+            $Log::error($error_info);
+
+            if(IS_DEBUG == true){
+                $whoops = new \Whoops\Run;
+                $whoops->allowQuit(false);
+                $whoops->writeToOutput(false);
+                $whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
+                $html = $whoops->handleException($e);
+                echo $html;
+            }
         }
 
         self::end();

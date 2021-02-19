@@ -1,0 +1,7 @@
+{
+    "name": "chenbingji/reporter",
+    "require": {
+        "php": "7.3.4",
+        "filp/whoops": "*"
+    }
+}
