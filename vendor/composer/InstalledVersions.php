@@ -30,11 +30,20 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '19f79dbf448e7b5d0648a89c886fb63e7a4e4951',
+    'reference' => '6174d2f60305ab2674985f7d96045bc649d19132',
     'name' => 'chenbingji/reporter',
   ),
   'versions' => 
   array (
+    'catfan/medoo' => 
+    array (
+      'pretty_version' => 'v1.7.10',
+      'version' => '1.7.10.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '2d675f73e23f63bbaeb9a8aa33318659a3d3c32f',
+    ),
     'chenbingji/reporter' => 
     array (
       'pretty_version' => 'dev-main',
@@ -42,7 +51,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '19f79dbf448e7b5d0648a89c886fb63e7a4e4951',
+      'reference' => '6174d2f60305ab2674985f7d96045bc649d19132',
     ),
     'filp/whoops' => 
     array (
