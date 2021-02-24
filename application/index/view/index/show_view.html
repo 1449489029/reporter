@@ -1,3 +1,22 @@
-<h1>表头</h1>
+{% extends "base.html" %}
 
-<?php echo $name; ?>
+{% block title %}
+Index
+{% endblock %}
+
+
+{% block head %}
+<!--页面头部-->
+{{ parent() }}
+<style type="text/css">
+    .important { color: #336699; }
+</style>
+{% endblock %}
+
+{% block content %}
+<!--页面主体-->
+<h1>Index</h1>
+<p class="important">
+    Reporter
+</p>
+{% endblock %}

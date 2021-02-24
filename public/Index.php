@@ -25,6 +25,8 @@ define('APP_PATH', ROOT_PATH . '/application');
 define('CONFIG_PATH', ROOT_PATH . '/config');
 // 日志目录
 define('LOG_PATH', ROOT_PATH . '/runtime/log');
+// 视图缓存目录
+define('VIEW_CACHE_PATH', ROOT_PATH . '/runtime/cache');
 // 开始运行时间
 define('START_TIME', microtime(true));
 // 开始运行时的内存使用量

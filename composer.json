@@ -3,6 +3,7 @@
     "require": {
         "php": "7.3.4",
         "filp/whoops": "*",
-        "catfan/medoo": "*"
+        "catfan/medoo": "*",
+        "twig/twig": "*"
     }
 }

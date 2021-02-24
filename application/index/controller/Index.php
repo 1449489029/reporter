@@ -39,7 +39,7 @@ class Index extends Controller
     public function show_view()
     {
         $this->assign('name', '显示视图');
-        $this->display('/index/show_view.html');
+        $this->display('show_view.html');
     }
 
     public function write()

@@ -34,7 +34,7 @@ class Base
             $actionName = self::$Route->action;
 
             // 实例化类
-            $Controller = new $controllerName();
+            $Controller = new $controllerName(self::$Route);
             if (!empty(self::$Route->queryParams)) {
                 // 调用函数并传递参数
                 call_user_func_array([$Controller, $actionName], self::$Route->queryParams);
