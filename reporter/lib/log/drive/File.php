@@ -4,17 +4,35 @@ namespace reporter\lib\log\drive;
 
 use reporter\lib\log\Drive;
 
-class File extends Drive
+class File implements Drive
 {
     /**
      * @var array 存放请求日志的临时容器
      */
-    public static $headerMessages = [];
+    protected static $headerMessages = [];
 
     /**
      * @var array 存放日志的临时容器
      */
-    public static $messages = [];
+    protected static $messages = [];
+
+    // 级别
+    const LEVEL_RECORD = 'record'; // 记录
+    const LEVEL_WARNING = 'warning'; // 警告
+    const LEVEL_ERROR = 'error'; // 错误
+
+    /**
+     * @var array 配置项
+     */
+    protected static $options = [
+        // 每隔多久产生一个新日志文件 单位:秒
+        'duration' => 300
+    ];
+
+    public function __construct($options)
+    {
+        self::$options = array_merge(self::$options, $options);
+    }
 
 
     /**
@@ -59,13 +77,16 @@ class File extends Drive
         // 拼接日志文件的路径
         $filePath = $dirPath . '/' . $fileName;
 
+
         foreach (self::$headerMessages as $headerMessage) {
             file_put_contents($filePath, $headerMessage, FILE_APPEND);
         }
+        self::$headerMessages = [];
 
         foreach (self::$messages as $message) {
             file_put_contents($filePath, $message, FILE_APPEND);
         }
+        self::$messages = [];
 
         return true;
     }
@@ -108,7 +129,7 @@ class File extends Drive
      *
      * @param mixed $message 错误信息
      * @return bool
-    */
+     */
     public static function error($message)
     {
         if (is_array($message)) {
@@ -130,7 +151,9 @@ class File extends Drive
      */
     protected static function getLogFileName()
     {
-        $fileName = date('d') . '.log';
+        $number = floor((TIME_NOW - TIME_TODAY) / self::$options['duration']);
+
+        $fileName = date('d') . '_' . $number . '.log';
 
         return $fileName;
     }

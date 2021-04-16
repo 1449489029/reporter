@@ -2,12 +2,11 @@
 
 namespace reporter\lib;
 
-use reporter\lib\Config;
-
+// 日志类
 class Log
 {
     // 类型
-    const TYPE_FILE = 'file'; // 写入到文件中
+    const TYPE_FILE = 'File'; // 写入到文件中
 
     /**
      * @var mixed 实例
@@ -16,16 +15,73 @@ class Log
 
     public static function init()
     {
-        if (empty(self::$example)) {
-            $type = Config::get('type', 'log');
-            if ($type == self::TYPE_FILE) {
-                $typeNameSpace = '\reporter\lib\log\drive\File';
-            } else {
-                throw new \Exception('无效类型');
-            }
-            self::$example = new $typeNameSpace();
+        $logConfig = Config::all('log');
+        $typeNameSpace = '\reporter\lib\log\drive\\' . $logConfig['type'];
+        if (!self::$example instanceof $typeNameSpace) {
+            self::$example = new $typeNameSpace($logConfig);
         }
 
         return self::$example;
     }
+
+    /**
+     * 写入日志
+     *
+     * @param string $message 写入的内容
+     * @return bool
+     */
+    public static function write($message)
+    {
+        self::init();
+
+        self::$example::write($message);
+
+        return true;
+    }
+
+    /**
+     * 写入所有日志
+     *
+     * @return bool
+     */
+    public static function writeAll()
+    {
+        self::init();
+
+        self::$example::writeAll();
+
+        return true;
+    }
+
+    /**
+     * 记录日志
+     *
+     * @param mixed $message 记录的内容
+     * @return bool
+     */
+    public static function record($message)
+    {
+        self::init();
+
+        self::$example::record($message);
+
+        return true;
+    }
+
+    /**
+     * 记录错误日志
+     *
+     * @param mixed $message 错误信息
+     * @return bool
+     */
+    public static function error($message)
+    {
+        self::init();
+
+        self::$example::error($message);
+
+        return true;
+    }
+
+
 }

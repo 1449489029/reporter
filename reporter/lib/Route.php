@@ -83,7 +83,7 @@ class Route
             while ($urlArrLen > $i) {
                 // 收集参数
                 if (isset($urlArr[$i + 1])) {
-                    $this->queryParams[$urlArr[$i]] = $urlArr[$i + 1];
+                    $this->queryParams[$urlArr[$i]] = urldecode($urlArr[$i + 1]);
                 }
                 $i = $i + 2;
             }
@@ -92,7 +92,7 @@ class Route
         // 将控制器名称的首字母转换为大写的
         $this->controller = ucfirst($this->controller);
 
-
+        return;
     }
 
 

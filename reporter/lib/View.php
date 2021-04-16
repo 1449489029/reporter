@@ -2,6 +2,7 @@
 
 namespace reporter\lib;
 
+// 视图类
 class View
 {
 

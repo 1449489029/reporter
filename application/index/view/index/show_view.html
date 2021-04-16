@@ -9,7 +9,9 @@ Index
 <!--页面头部-->
 {{ parent() }}
 <style type="text/css">
-    .important { color: #336699; }
+    .important {
+        color: #336699;
+    }
 </style>
 {% endblock %}
 
@@ -18,5 +20,6 @@ Index
 <h1>Index</h1>
 <p class="important">
     Reporter
+    {{ get }}
 </p>
 {% endblock %}

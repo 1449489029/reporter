@@ -1,6 +1,9 @@
 ``sort``
 ========
 
+.. versionadded:: 2.12
+    The ``arrow`` argument was added in Twig 2.12.
+
 The ``sort`` filter sorts an array:
 
 .. code-block:: twig
@@ -17,7 +20,7 @@ The ``sort`` filter sorts an array:
 
 You can pass an arrow function to sort the array:
 
-.. code-block:: html+twig
+.. code-block:: twig
 
     {% set fruits = [
         { name: 'Apples', quantity: 5 },

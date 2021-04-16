@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'type' => 'file',
+    'type' => 'File',
 ];

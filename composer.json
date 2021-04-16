@@ -1,9 +1,9 @@
 {
-    "name": "chenbingji/reporter",
-    "require": {
-        "php": "7.3.4",
-        "filp/whoops": "*",
-        "catfan/medoo": "*",
-        "twig/twig": "*"
-    }
+  "name": "chenbingji/reporter",
+  "require": {
+    "php": "7.*",
+    "filp/whoops": "*",
+    "catfan/medoo": "*",
+    "twig/twig": "*"
+  }
 }

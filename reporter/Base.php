@@ -4,7 +4,11 @@ namespace reporter;
 
 use reporter\lib\Log;
 use reporter\lib\Route;
+use reporter\lib\Injection;
 use reporter\lib\Request;
+use reporter\lib\Env;
+use reporter\lib\Container;
+
 
 class Base
 {
@@ -26,8 +30,20 @@ class Base
         self::$Request = new Request();
         self::start();
         $Log = Log::init();
-
         try {
+            // 加载环境变量
+            $envFilePath = ROOT_PATH . '/.env';
+            if (is_file($envFilePath)) {
+                Env::loadFile($envFilePath);
+            }
+            // 自动绑定注册的服务
+            $registerFilePath = CONFIG_PATH . '/register.php';
+            $registers = require $registerFilePath;
+            foreach ($registers as $alias => $server) {
+                Container::bind($alias, Injection::make($server));
+            }
+
+
             // 定义控制器名
             $controllerName = '\application\\' . self::$Route->model . '\controller\\' . self::$Route->controller;
             // 定义控制器的指定函数名
@@ -37,10 +53,12 @@ class Base
             $Controller = new $controllerName(self::$Route);
             if (!empty(self::$Route->queryParams)) {
                 // 调用函数并传递参数
-                call_user_func_array([$Controller, $actionName], self::$Route->queryParams);
+                Injection::make($controllerName, $actionName, self::$Route->queryParams);
+//                call_user_func_array([$Controller, $actionName], self::$Route->queryParams);
             } else {
                 // 只调用函数
-                $Controller->$actionName();
+                Injection::make($controllerName, $actionName);
+//                $Controller->$actionName();
             }
         } catch (\Exception $e) {
             $error_info = [
@@ -50,7 +68,7 @@ class Base
             ];
             $Log::error($error_info);
 
-            if(IS_DEBUG == true){
+            if (IS_DEBUG == true) {
                 $whoops = new \Whoops\Run;
                 $whoops->allowQuit(false);
                 $whoops->writeToOutput(false);
@@ -66,7 +84,7 @@ class Base
             ];
             $Log::error($error_info);
 
-            if(IS_DEBUG == true){
+            if (IS_DEBUG == true) {
                 $whoops = new \Whoops\Run;
                 $whoops->allowQuit(false);
                 $whoops->writeToOutput(false);

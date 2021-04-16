@@ -2,9 +2,7 @@
 
 namespace reporter\lib;
 
-/**
- * 用于处理配置数据
- */
+// 用于处理配置数据
 class Config
 {
 

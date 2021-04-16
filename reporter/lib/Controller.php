@@ -2,6 +2,7 @@
 
 namespace reporter\lib;
 
+// 控制器基础类
 class Controller
 {
     /**
