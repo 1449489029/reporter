@@ -1,0 +1,68 @@
+---------------------------------------------------------------
+[ 2021-04-17T13:55:19+08:00 ] 127.0.0.1 GET tp.com/index/index/test
+[运行时间：0.015313s] [吞吐率：65.30req/s] [内存消耗：956.921875Kb] [文件加载：47]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Index
+    [2] => test
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Container.php
+    [line] => 162
+    [message] => Too few arguments to function reporter\lib\Container::build(), 1 passed in D:\phpstudy_pro\WWW\chenbingji\reporter\application\index\controller\Index.php on line 92 and exactly 2 expected
+)
+---------------------------------------------------------------
+[ 2021-04-17T13:55:46+08:00 ] 127.0.0.1 GET tp.com/index/index/test
+[运行时间：0.012607s] [吞吐率：79.32req/s] [内存消耗：956.96875Kb] [文件加载：47]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Index
+    [2] => test
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Container.php
+    [line] => 162
+    [message] => Argument 2 passed to reporter\lib\Container::build() must be an instance of Closure, string given, called in D:\phpstudy_pro\WWW\chenbingji\reporter\application\index\controller\Index.php on line 92
+)

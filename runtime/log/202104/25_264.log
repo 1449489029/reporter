@@ -1,0 +1,99 @@
+---------------------------------------------------------------
+[ 2021-04-25T22:00:23+08:00 ] 127.0.0.1 GET tp.com/admin/43/
+[运行时间：0.048611s] [吞吐率：20.57req/s] [内存消耗：1051.4453125Kb] [文件加载：105]
+[ info ] [ ROUTE ] Array
+(
+    [0] => admin
+    [1] => 43
+    [2] => index
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\Base.php
+    [line] => 63
+    [message] => Class '\application\admin\controller\43' not found
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:01:00+08:00 ] 127.0.0.1 GET tp.com/admin/043/assets/css/images/backgrounds/boxed_bg.png
+[运行时间：0.022676s] [吞吐率：44.10req/s] [内存消耗：1052.1484375Kb] [文件加载：105]
+[ info ] [ ROUTE ] Array
+(
+    [0] => admin
+    [1] => 043
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/admin/043/assets/css/minified/components.min.css
+    [Accept] => image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\Base.php
+    [line] => 63
+    [message] => Class '\application\admin\controller\043' not found
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:01:00+08:00 ] 127.0.0.1 GET tp.com/admin/043/assets/css/images/logo_icon_light.png
+[运行时间：0.021630s] [吞吐率：46.23req/s] [内存消耗：1051.9140625Kb] [文件加载：105]
+[ info ] [ ROUTE ] Array
+(
+    [0] => admin
+    [1] => 043
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/admin/043/assets/css/minified/core.min.css
+    [Accept] => image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\Base.php
+    [line] => 63
+    [message] => Class '\application\admin\controller\043' not found
+)

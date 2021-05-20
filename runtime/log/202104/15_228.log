@@ -1,0 +1,102 @@
+---------------------------------------------------------------
+[ 2021-04-15T19:00:49+08:00 ] 127.0.0.1 POST tp.com/index/index/testuploadFile
+[运行时间：0.013621s] [吞吐率：73.42req/s] [内存消耗：897.3515625Kb] [文件加载：47]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Index
+    [2] => testuploadFile
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/index/testuploadFile
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [Content-Type] => multipart/form-data; boundary=----WebKitFormBoundarySs66UGB7qMz9XsYB
+    [Origin] => http://tp.com
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Content-Length] => 42923275
+    [Connection] => keep-alive
+    [Host] => tp.com
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\File.php
+    [line] => 21
+    [message] => Too few arguments to function reporter\lib\File::__construct(), 0 passed in D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\Base.php on line 43 and exactly 1 expected
+)
+---------------------------------------------------------------
+[ 2021-04-15T19:01:19+08:00 ] 127.0.0.1 POST tp.com/index/index/testuploadFile
+[运行时间：0.012839s] [吞吐率：77.89req/s] [内存消耗：917.59375Kb] [文件加载：48]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Index
+    [2] => testuploadFile
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/index/testuploadFile
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [Content-Type] => multipart/form-data; boundary=----WebKitFormBoundarySs66UGB7qMz9XsYB
+    [Origin] => http://tp.com
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Content-Length] => 42923275
+    [Connection] => keep-alive
+    [Host] => tp.com
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\File.php
+    [line] => 21
+    [message] => Too few arguments to function reporter\lib\File::__construct(), 0 passed and exactly 1 expected
+)
+---------------------------------------------------------------
+[ 2021-04-15T19:02:22+08:00 ] 127.0.0.1 POST tp.com/index/index/testuploadFile
+[运行时间：0.546219s] [吞吐率：1.83req/s] [内存消耗：287.4921875Kb] [文件加载：28]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Index
+    [2] => testuploadFile
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/index/testuploadFile
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [Content-Type] => multipart/form-data; boundary=----WebKitFormBoundarySs66UGB7qMz9XsYB
+    [Origin] => http://tp.com
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Content-Length] => 42923275
+    [Connection] => keep-alive
+    [Host] => tp.com
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+

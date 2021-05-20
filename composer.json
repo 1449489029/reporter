@@ -1,9 +1,10 @@
 {
   "name": "chenbingji/reporter",
   "require": {
-    "php": "7.*",
+    "php": "7.2.*",
     "filp/whoops": "*",
     "catfan/medoo": "*",
-    "twig/twig": "*"
+    "twig/twig": "*",
+    "phpoffice/phpspreadsheet": "^1.2"
   }
 }

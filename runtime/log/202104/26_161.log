@@ -1,0 +1,113 @@
+---------------------------------------------------------------
+[ 2021-04-26T13:25:01+08:00 ] 127.0.0.1 GET tp.com/admin/Items/Add
+[运行时间：0.027220s] [吞吐率：36.74req/s] [内存消耗：1282.484375Kb] [文件加载：103]
+[ info ] [ ROUTE ] Array
+(
+    [0] => admin
+    [1] => Items
+    [2] => Add
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+---------------------------------------------------------------
+[ 2021-04-26T13:26:47+08:00 ] 127.0.0.1 GET tp.com/admin/Items/Add
+[运行时间：0.031843s] [吞吐率：31.40req/s] [内存消耗：1282.484375Kb] [文件加载：103]
+[ info ] [ ROUTE ] Array
+(
+    [0] => admin
+    [1] => Items
+    [2] => Add
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+---------------------------------------------------------------
+[ 2021-04-26T13:27:19+08:00 ] 127.0.0.1 GET tp.com/admin/Items/Add
+[运行时间：0.030022s] [吞吐率：33.31req/s] [内存消耗：1282.484375Kb] [文件加载：103]
+[ info ] [ ROUTE ] Array
+(
+    [0] => admin
+    [1] => Items
+    [2] => Add
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+---------------------------------------------------------------
+[ 2021-04-26T13:27:24+08:00 ] 127.0.0.1 GET tp.com/admin/Items/Add
+[运行时间：0.025622s] [吞吐率：39.03req/s] [内存消耗：1282.640625Kb] [文件加载：103]
+[ info ] [ ROUTE ] Array
+(
+    [0] => admin
+    [1] => Items
+    [2] => Add
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+

@@ -1,0 +1,105 @@
+---------------------------------------------------------------
+[ 2021-04-21T16:51:10+08:00 ] 127.0.0.1 GET tp.com/index/index/export_data_structure
+[运行时间：0.187022s] [吞吐率：5.35req/s] [内存消耗：1000.53125Kb] [文件加载：55]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Index
+    [2] => export_data_structure
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ info ] [ sql ] show tables [RunTime:0.04146s]
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\application\index\controller\Index.php
+    [line] => 144
+    [message] => Call to undefined function application\index\controller\config()
+)
+---------------------------------------------------------------
+[ 2021-04-21T16:52:02+08:00 ] 127.0.0.1 GET tp.com/index/index/export_data_structure
+[运行时间：0.198570s] [吞吐率：5.04req/s] [内存消耗：1093.4453125Kb] [文件加载：56]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Index
+    [2] => export_data_structure
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ info ] [ sql ] show tables [RunTime:0.04309s]
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\db\Assembly.php
+    [line] => 260
+    [message] => Argument 1 passed to reporter\lib\db\Assembly::desc() must be of the type string, null given, called in D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\db\DB.php on line 430
+)
+---------------------------------------------------------------
+[ 2021-04-21T16:54:39+08:00 ] 127.0.0.1 GET tp.com/index/index/export_data_structure
+[运行时间：0.229627s] [吞吐率：4.35req/s] [内存消耗：1025.640625Kb] [文件加载：55]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Index
+    [2] => export_data_structure
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ info ] [ sql ] show tables [RunTime:0.04258s]
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\db\DB.php
+    [line] => 410
+    [message] => Call to a member function setFetchMode() on boolean
+)

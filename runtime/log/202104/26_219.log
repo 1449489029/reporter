@@ -1,0 +1,266 @@
+---------------------------------------------------------------
+[ 2021-04-26T18:17:22+08:00 ] 127.0.0.1 GET tp.com/admin/043/assets/js/plugins/notifications/jquery.jgrowl.map
+[运行时间：0.028237s] [吞吐率：35.41req/s] [内存消耗：1051.875Kb] [文件加载：105]
+[ info ] [ ROUTE ] Array
+(
+    [0] => admin
+    [1] => 043
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\Base.php
+    [line] => 63
+    [message] => Class '\application\admin\controller\043' not found
+)
+---------------------------------------------------------------
+[ 2021-04-26T18:17:35+08:00 ] 127.0.0.1 GET tp.com/admin/043/assets/js/plugins/forms/tags/bootstrap-tagsinput.min.js.map
+[运行时间：0.023233s] [吞吐率：43.04req/s] [内存消耗：1051.8828125Kb] [文件加载：105]
+[ info ] [ ROUTE ] Array
+(
+    [0] => admin
+    [1] => 043
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\Base.php
+    [line] => 63
+    [message] => Class '\application\admin\controller\043' not found
+)
+---------------------------------------------------------------
+[ 2021-04-26T18:17:44+08:00 ] 127.0.0.1 GET tp.com/admin/043/assets/js/plugins/forms/tags/bootstrap-tagsinput.min.js.map
+[运行时间：0.025783s] [吞吐率：38.79req/s] [内存消耗：1051.8828125Kb] [文件加载：105]
+[ info ] [ ROUTE ] Array
+(
+    [0] => admin
+    [1] => 043
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\Base.php
+    [line] => 63
+    [message] => Class '\application\admin\controller\043' not found
+)
+---------------------------------------------------------------
+[ 2021-04-26T18:17:56+08:00 ] 127.0.0.1 GET tp.com/admin/043/assets/js/plugins/forms/tags/bootstrap-tagsinput.min.js.map
+[运行时间：0.026398s] [吞吐率：37.88req/s] [内存消耗：1051.8828125Kb] [文件加载：105]
+[ info ] [ ROUTE ] Array
+(
+    [0] => admin
+    [1] => 043
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\Base.php
+    [line] => 63
+    [message] => Class '\application\admin\controller\043' not found
+)
+---------------------------------------------------------------
+[ 2021-04-26T18:18:37+08:00 ] 127.0.0.1 GET tp.com/admin/043/assets/js/plugins/forms/tags/bootstrap-tagsinput.min.js.map
+[运行时间：0.026322s] [吞吐率：37.99req/s] [内存消耗：1051.8828125Kb] [文件加载：105]
+[ info ] [ ROUTE ] Array
+(
+    [0] => admin
+    [1] => 043
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\Base.php
+    [line] => 63
+    [message] => Class '\application\admin\controller\043' not found
+)
+---------------------------------------------------------------
+[ 2021-04-26T18:18:42+08:00 ] 127.0.0.1 GET tp.com/admin/043/assets/js/plugins/forms/tags/bootstrap-tagsinput.min.js.map
+[运行时间：0.026948s] [吞吐率：37.11req/s] [内存消耗：1051.8828125Kb] [文件加载：105]
+[ info ] [ ROUTE ] Array
+(
+    [0] => admin
+    [1] => 043
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\Base.php
+    [line] => 63
+    [message] => Class '\application\admin\controller\043' not found
+)
+---------------------------------------------------------------
+[ 2021-04-26T18:18:50+08:00 ] 127.0.0.1 GET tp.com/admin/043/starters/index.html
+[运行时间：0.025318s] [吞吐率：39.50req/s] [内存消耗：1051.8359375Kb] [文件加载：105]
+[ info ] [ ROUTE ] Array
+(
+    [0] => admin
+    [1] => 043
+    [2] => starters
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/admin/043/starters/horizontal_nav.html
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\Base.php
+    [line] => 63
+    [message] => Class '\application\admin\controller\043' not found
+)
+---------------------------------------------------------------
+[ 2021-04-26T18:18:56+08:00 ] 127.0.0.1 GET tp.com/layout_1/LTR/index.html
+[运行时间：0.019160s] [吞吐率：52.19req/s] [内存消耗：1051.84375Kb] [文件加载：105]
+[ info ] [ ROUTE ] Array
+(
+    [0] => layout_1
+    [1] => LTR
+    [2] => index.html
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/admin/043/form_inputs_grid.html
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\Base.php
+    [line] => 63
+    [message] => Class '\application\layout_1\controller\LTR' not found
+)

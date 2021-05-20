@@ -1,0 +1,32 @@
+---------------------------------------------------------------
+[ 2021-04-21T17:06:00+08:00 ] 127.0.0.1 GET tp.com/index/index/export_data_structure
+[运行时间：0.316252s] [吞吐率：3.16req/s] [内存消耗：601.09375Kb] [文件加载：89]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Index
+    [2] => export_data_structure
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ info ] [ sql ] show tables [RunTime:0.04204s]
+[ info ] [ sql ] show create table pre_role_planet [RunTime:0.04409s]
+[ info ] [ sql ] show create table pre_role_world [RunTime:0.04345s]
+[ info ] [ sql ] show create table yaf_user [RunTime:0.04296s]

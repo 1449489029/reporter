@@ -1,0 +1,4741 @@
+---------------------------------------------------------------
+[ 2021-04-25T22:08:00+08:00 ] 127.0.0.1 GET tp.com/admin/addItem
+[运行时间：0.029038s] [吞吐率：34.44req/s] [内存消耗：1051.46875Kb] [文件加载：105]
+[ info ] [ ROUTE ] Array
+(
+    [0] => admin
+    [1] => AddItem
+    [2] => index
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\Base.php
+    [line] => 63
+    [message] => Class '\application\admin\controller\AddItem' not found
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:08:07+08:00 ] 127.0.0.1 GET tp.com/index/admin/AddItem
+[运行时间：0.076856s] [吞吐率：13.01req/s] [内存消耗：2525.6484375Kb] [文件加载：144]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => AddItem
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+---------------------------------------------------------------
+---------------------------------------------------------------
+sets/css/icons/icomoon/styles.css
+[运行时间：0.036460s] [吞吐率：27.43req/s] [内存消耗：1073.7109375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ 2021-04-25T22:08:07+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/minified/bootstrap.min.css
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[运行时间：0.028691s] [吞吐率：34.85req/s] [内存消耗：1073.5859375Kb] [文件加载：108]
+[ info ] [ PARAM ] Array
+(
+)
+
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+b\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:08:07+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/minified/core.min.css
+[运行时间：0.028533s] [吞吐率：35.05req/s] [内存消耗：1073.5859375Kb] [文件加载：108]
+---------------------------------------------------------------
+[ 2021-04-25T22:08:07+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/minified/components.min.css
+[运行时间：0.032925s] [吞吐率：30.37req/s] [内存消耗：1073.5859375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:08:07+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/minified/colors.min.css
+[运行时间：0.027725s] [吞吐率：36.07req/s] [内存消耗：1073.5859375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:08:07+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/loaders/pace.min.js
+[运行时间：0.027722s] [吞吐率：36.07req/s] [内存消耗：1073.6171875Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:08:07+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/core/libraries/jquery.min.js
+[运行时间：0.037799s] [吞吐率：26.46req/s] [内存消耗：1073.6328125Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:08:07+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/core/libraries/bootstrap.min.js
+[运行时间：0.045624s] [吞吐率：21.92req/s] [内存消耗：1073.7109375Kb] [文件加载：108]
+---------------------------------------------------------------
+[ 2021-04-25T22:08:07+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/loaders/blockui.min.js
+[运行时间：0.039606s] [吞吐率：25.25req/s] [内存消耗：1073.6484375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:08:07+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/forms/styling/uniform.min.js
+[运行时间：0.020297s] [吞吐率：49.27req/s] [内存消耗：1073.6953125Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:08:07+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/forms/styling/switchery.min.js
+[运行时间：0.018409s] [吞吐率：54.32req/s] [内存消耗：1073.6953125Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:08:07+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/core/app.js
+[运行时间：0.038394s] [吞吐率：26.05req/s] [内存消耗：1073.3984375Kb] [文件加载：108]
+---------------------------------------------------------------
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ 2021-04-25T22:08:07+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/forms/inputs/touchspin.min.js
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[运行时间：0.041906s] [吞吐率：23.86req/s] [内存消耗：1073.6953125Kb] [文件加载：108]
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:08:07+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/pages/form_input_groups.js
+[运行时间：0.030705s] [吞吐率：32.57req/s] [内存消耗：1073.4765625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:08:07+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/images/logo_light.png
+[运行时间：0.017318s] [吞吐率：57.74req/s] [内存消耗：1073.6484375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:08:07+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/images/placeholder.jpg
+[运行时间：0.020141s] [吞吐率：49.65req/s] [内存消耗：1073.6484375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:26+08:00 ] 127.0.0.1 GET tp.com/index/admin/AddItem
+[运行时间：0.025696s] [吞吐率：38.92req/s] [内存消耗：1283.6328125Kb] [文件加载：102]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => AddItem
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+---------------------------------------------------------------
+[ 2021-04-25T22:09:26+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/minified/components.min.css
+[运行时间：0.024770s] [吞吐率：40.37req/s] [内存消耗：1073.5859375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:26+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/icons/icomoon/styles.css
+[运行时间：0.050233s] [吞吐率：19.91req/s] [内存消耗：1073.7109375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+---------------------------------------------------------------
+[ 2021-04-25T22:09:26+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/minified/bootstrap.min.css
+[运行时间：0.055570s] [吞吐率：18.00req/s] [内存消耗：1073.5859375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+oding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:26+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/minified/core.min.css
+[运行时间：0.075769s] [吞吐率：13.20req/s] [内存消耗：1073.5859375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+---------------------------------------------------------------
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+[ 2021-04-25T22:09:26+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/loaders/pace.min.js
+[运行时间：0.021626s] [吞吐率：46.24req/s] [内存消耗：1073.6171875Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:26+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/minified/colors.min.css
+[运行时间：0.055355s] [吞吐率：18.07req/s] [内存消耗：1073.5859375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:26+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/core/libraries/jquery.min.js
+[运行时间：0.048419s] [吞吐率：20.65req/s] [内存消耗：1073.6328125Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:26+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/core/libraries/bootstrap.min.js
+[运行时间：0.022369s] [吞吐率：44.70req/s] [内存消耗：1073.7109375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:26+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/forms/styling/switchery.min.js
+---------------------------------------------------------------
+[ 2021-04-25T22:09:26+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/forms/styling/uniform.min.js
+[运行时间：0.027930s] [吞吐率：35.80req/s] [内存消耗：1073.6953125Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[运行时间：0.026792s] [吞吐率：37.32req/s] [内存消耗：1073.6953125Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:26+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/loaders/blockui.min.js
+[运行时间：0.060962s] [吞吐率：16.40req/s] [内存消耗：1073.6484375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+---------------------------------------------------------------
+[ 2021-04-25T22:09:26+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/forms/inputs/touchspin.min.js
+Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[运行时间：0.026106s] [吞吐率：38.31req/s] [内存消耗：1073.6953125Kb] [文件加载：108]
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:26+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/pages/form_input_groups.js
+[运行时间：0.021071s] [吞吐率：47.46req/s] [内存消耗：1073.4765625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:26+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/core/app.js
+[运行时间：0.044227s] [吞吐率：22.61req/s] [内存消耗：1073.3984375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:26+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/images/logo_light.png
+[运行时间：0.019815s] [吞吐率：50.47req/s] [内存消耗：1073.6484375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:26+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/images/placeholder.jpg
+[运行时间：0.028271s] [吞吐率：35.37req/s] [内存消耗：1073.6484375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:28+08:00 ] 127.0.0.1 GET tp.com/index/admin/AddItem
+[运行时间：0.018371s] [吞吐率：54.43req/s] [内存消耗：1283.7890625Kb] [文件加载：102]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => AddItem
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+---------------------------------------------------------------
+[ 2021-04-25T22:09:28+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/icons/icomoon/styles.css
+[运行时间：0.024568s] [吞吐率：40.70req/s] [内存消耗：1074.1640625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:28+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/minified/components.min.css
+---------------------------------------------------------------
+[ 2021-04-25T22:09:28+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/minified/colors.min.css
+[运行时间：0.028555s] [吞吐率：35.02req/s] [内存消耗：1074.0390625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:28+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/minified/bootstrap.min.css
+[运行时间：0.037496s] [吞吐率：26.67req/s] [内存消耗：1074.0390625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+[运行时间：0.025810s] [吞吐率：38.74req/s] [内存消耗：1074.0390625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:28+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/minified/core.min.css
+[运行时间：0.066410s] [吞吐率：15.06req/s] [内存消耗：1074.0390625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:28+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/core/libraries/jquery.min.js
+[运行时间：0.020430s] [吞吐率：48.95req/s] [内存消耗：1074.0234375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:28+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/loaders/pace.min.js
+[运行时间：0.042407s] [吞吐率：23.58req/s] [内存消耗：1074.0078125Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:28+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/forms/inputs/touchspin.min.js
+[运行时间：0.017964s] [吞吐率：55.67req/s] [内存消耗：1078.0859375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:28+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/core/libraries/bootstrap.min.js
+[运行时间：0.037966s] [吞吐率：26.34req/s] [内存消耗：1074.1015625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:28+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/loaders/blockui.min.js
+[运行时间：0.045776s] [吞吐率：21.85req/s] [内存消耗：1074.0390625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:28+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/core/app.js
+[运行时间：0.017869s] [吞吐率：55.96req/s] [内存消耗：1073.7890625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:28+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/forms/styling/switchery.min.js
+[运行时间：0.060896s] [吞吐率：16.42req/s] [内存消耗：1078.0859375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+��吐率：16.30req/s] [内存消耗：1074.0859375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:28+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/pages/form_input_groups.js
+[运行时间：0.041735s] [吞吐率：23.96req/s] [内存消耗：1073.8671875Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:28+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/images/logo_light.png
+[运行时间：0.017237s] [吞吐率：58.01req/s] [内存消耗：1074.1015625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:28+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/images/placeholder.jpg
+[运行时间：0.017350s] [吞吐率：57.64req/s] [内存消耗：1074.1015625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:28+08:00 ] 127.0.0.1 GET tp.com/index/admin/AddItem
+[运行时间：0.018947s] [吞吐率：52.78req/s] [内存消耗：1283.7890625Kb] [文件加载：102]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => AddItem
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+---------------------------------------------------------------
+[ 2021-04-25T22:09:29+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/icons/icomoon/styles.css
+[运行时间：0.018786s] [吞吐率：53.23req/s] [内存消耗：1074.1640625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:29+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/loaders/pace.min.js
+[运行时间：0.023093s] [吞吐率：43.30req/s] [内存消耗：1074.0078125Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:29+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/minified/core.min.css
+[运行时间：0.032407s] [吞吐率：30.86req/s] [内存消耗：1074.0390625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:29+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/minified/bootstrap.min.css
+[运行时间：0.040979s] [吞吐率：24.40req/s] [内存消耗：1074.0390625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:29+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/minified/colors.min.css
+[运行时间：0.055033s] [吞吐率：18.17req/s] [内存消耗：1074.0390625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:29+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/loaders/blockui.min.js
+[运行时间：0.018461s] [吞吐率：54.17req/s] [内存消耗：1074.0390625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:29+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/core/libraries/bootstrap.min.js
+[运行时间：0.026684s] [吞吐率：37.48req/s] [内存消耗：1074.1015625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:29+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/core/libraries/jquery.min.js
+[运行时间：0.032485s] [吞吐率：30.78req/s] [内存消耗：1074.0234375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:29+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/minified/components.min.css
+[运行时间：0.090893s] [吞吐率：11.00req/s] [内存消耗：1074.0390625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:29+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/forms/styling/switchery.min.js
+[运行时间：0.017976s] [吞吐率：55.63req/s] [内存消耗：1078.0859375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:29+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/forms/styling/uniform.min.js
+[运行时间：0.026444s] [吞吐率：37.82req/s] [内存消耗：1074.0859375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:29+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/forms/inputs/touchspin.min.js
+[运行时间：0.037877s] [吞吐率：26.40req/s] [内存消耗：1078.0859375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:29+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/pages/form_input_groups.js
+[运行时间：0.028938s] [吞吐率：34.56req/s] [内存消耗：1073.8671875Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:29+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/core/app.js
+[运行时间：0.038311s] [吞吐率：26.10req/s] [内存消耗：1073.7890625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:29+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/images/logo_light.png
+[运行时间：0.019271s] [吞吐率：51.89req/s] [内存消耗：1074.1015625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:29+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/images/placeholder.jpg
+[运行时间：0.021456s] [吞吐率：46.61req/s] [内存消耗：1074.1015625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:29+08:00 ] 127.0.0.1 GET tp.com/index/admin/AddItem
+[运行时间：0.017769s] [吞吐率：56.28req/s] [内存消耗：1283.7890625Kb] [文件加载：102]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => AddItem
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/minified/bootstrap.min.css
+[运行时间：0.022925s] [吞吐率：43.62req/s] [内存消耗：1074.0390625Kb] [文件加载：108]
+ET tp.com/index/admin/assets/js/plugins/loaders/pace.min.js
+[运行时间：0.027399s] [吞吐率：36.50req/s] [内存消耗：1074.0078125Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/minified/core.min.css
+[运行时间：0.030970s] [吞吐率：32.29req/s] [内存消耗：1074.0390625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+---------------------------------------------------------------
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/minified/colors.min.css
+[ info ] [ PARAM ] Array
+(
+)
+
+[运行时间：0.031684s] [吞吐率：31.56req/s] [内存消耗：1074.0390625Kb] [文件加载：108]
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/core/libraries/jquery.min.js
+[运行时间：0.020482s] [吞吐率：48.82req/s] [内存消耗：1074.0234375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/core/libraries/bootstrap.min.js
+[运行时间：0.021620s] [吞吐率：46.25req/s] [内存消耗：1074.1015625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/icons/icomoon/styles.css
+[运行时间：0.079603s] [吞吐率：12.56req/s] [内存消耗：1074.1640625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/loaders/blockui.min.js
+[运行时间：0.035706s] [吞吐率：28.01req/s] [内存消耗：1074.0390625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/minified/components.min.css
+[运行时间：0.079715s] [吞吐率：12.54req/s] [内存消耗：1074.0390625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/pages/form_input_groups.js
+[运行时间：0.018875s] [吞吐率：52.98req/s] [内存消耗：1073.8671875Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/core/app.js
+[运行时间：0.029352s] [吞吐率：34.07req/s] [内存消耗：1073.7890625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/forms/inputs/touchspin.min.js
+[运行时间：0.037868s] [吞吐率：26.41req/s] [内存消耗：1078.0859375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/forms/styling/switchery.min.js
+[运行时间：0.040106s] [吞吐率：24.93req/s] [内存消耗：1078.0859375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/forms/styling/uniform.min.js
+[运行时间：0.042410s] [吞吐率：23.58req/s] [内存消耗：1074.0859375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/images/logo_light.png
+[运行时间：0.017496s] [吞吐率：57.16req/s] [内存消耗：1074.1015625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/images/placeholder.jpg
+[运行时间：0.019156s] [吞吐率：52.20req/s] [内存消耗：1074.1015625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/AddItem
+[运行时间：0.016118s] [吞吐率：62.04req/s] [内存消耗：1283.7890625Kb] [文件加载：102]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => AddItem
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/icons/icomoon/styles.css
+[运行时间：0.020208s] [吞吐率：49.49req/s] [内存消耗：1074.1640625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/loaders/pace.min.js
+[运行时间：0.027725s] [吞吐率：36.07req/s] [内存消耗：1074.0078125Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+�：34.90req/s] [内存消耗：1074.0390625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/minified/bootstrap.min.css
+[运行时间：0.072824s] [吞吐率：13.73req/s] [内存消耗：1074.0390625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/core/libraries/bootstrap.min.js
+[运行时间：0.023070s] [吞吐率：43.35req/s] [内存消耗：1074.1015625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+---------------------------------------------------------------
+.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/minified/core.min.css
+[ info ] [ PARAM ] Array
+(
+)
+
+[运行时间：0.071428s] [吞吐率：14.00req/s] [内存消耗：1074.0390625Kb] [文件加载：108]
+ne] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/loaders/blockui.min.js
+[运行时间：0.035720s] [吞吐率：28.00req/s] [内存消耗：1074.0390625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/forms/styling/switchery.min.js
+[运行时间：0.024468s] [吞吐率：40.87req/s] [内存消耗：1078.0859375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/pages/form_input_groups.js
+[运行时间：0.023971s] [吞吐率：41.72req/s] [内存消耗：1073.8671875Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/core/libraries/jquery.min.js
+[运行时间：0.084915s] [吞吐率：11.78req/s] [内存消耗：1074.0234375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/forms/styling/uniform.min.js
+[运行时间：0.063434s] [吞吐率：15.76req/s] [内存消耗：1074.0859375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/forms/inputs/touchspin.min.js
+[运行时间：0.062975s] [吞吐率：15.88req/s] [内存消耗：1078.0859375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/core/app.js
+[运行时间：0.061810s] [吞吐率：16.18req/s] [内存消耗：1073.7890625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/images/placeholder.jpg
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/images/logo_light.png
+[运行时间：0.020810s] [吞吐率：48.05req/s] [内存消耗：1074.1015625Kb] [文件加载：108]
+[运行时间：0.020760s] [吞吐率：48.17req/s] [内存消耗：1074.1015625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/AddItem
+[运行时间：0.018068s] [吞吐率：55.35req/s] [内存消耗：1283.7890625Kb] [文件加载：102]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => AddItem
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/icons/icomoon/styles.css
+---------------------------------------------------------------
+[运行时间：0.020047s] [吞吐率：49.88req/s] [内存消耗：1074.1640625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[运行时间：0.018799s] [吞吐率：53.19req/s] [内存消耗：1074.0390625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/minified/components.min.css
+[运行时间：0.069955s] [吞吐率：14.29req/s] [内存消耗：1074.0390625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/minified/colors.min.css
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/minified/bootstrap.min.css
+[运行时间：0.079016s] [吞吐率：12.66req/s] [内存消耗：1074.0390625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+[运行时间：0.074528s] [吞吐率：13.42req/s] [内存消耗：1074.0390625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+---------------------------------------------------------------
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/loaders/pace.min.js
+[运行时间：0.081749s] [吞吐率：12.23req/s] [内存消耗：1074.0078125Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/forms/styling/switchery.min.js
+[运行时间：0.019019s] [吞吐率：52.58req/s] [内存消耗：1078.0859375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/core/libraries/jquery.min.js
+---------------------------------------------------------------
+：1074.0234375Kb] [文件加载：108]
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/core/libraries/bootstrap.min.js
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+ [文件加载：108]
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+---------------------------------------------------------------
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/forms/styling/uniform.min.js
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/loaders/blockui.min.js
+[运行时间：0.056844s] [吞吐率：17.59req/s] [内存消耗：1074.0390625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/pages/form_input_groups.js
+[运行时间：0.021196s] [吞吐率：47.18req/s] [内存消耗：1073.8671875Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/forms/inputs/touchspin.min.js
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/core/app.js
+[运行时间：0.031154s] [吞吐率：32.10req/s] [内存消耗：1073.7890625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+[运行时间：0.081961s] [吞吐率：12.20req/s] [内存消耗：1078.0859375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/images/placeholder.jpg
+[运行时间：0.020317s] [吞吐率：49.22req/s] [内存消耗：1074.1015625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:30+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/images/logo_light.png
+[运行时间：0.030655s] [吞吐率：32.62req/s] [内存消耗：1074.1015625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:35+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/icons/icomoon/styles.css
+[运行时间：0.018743s] [吞吐率：53.35req/s] [内存消耗：1073.7109375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+---------------------------------------------------------------
+[ 2021-04-25T22:09:35+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/minified/bootstrap.min.css
+[运行时间：0.033862s] [吞吐率：29.53req/s] [内存消耗：1073.5859375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+[ 2021-04-25T22:09:35+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/minified/components.min.css
+[运行时间：0.033039s] [吞吐率：30.27req/s] [内存消耗：1073.5859375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:35+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/minified/core.min.css
+[运行时间：0.046929s] [吞吐率：21.31req/s] [内存消耗：1073.5859375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:35+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/minified/colors.min.css
+[运行时间：0.030108s] [吞吐率：33.21req/s] [内存消耗：1073.5859375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:43+08:00 ] 127.0.0.1 GET tp.com/index/admin/AddItem
+[运行时间：0.018901s] [吞吐率：52.91req/s] [内存消耗：1283.6328125Kb] [文件加载：102]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => AddItem
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+---------------------------------------------------------------
+[ 2021-04-25T22:09:43+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/icons/icomoon/styles.css
+[运行时间：0.019072s] [吞吐率：52.43req/s] [内存消耗：1073.7109375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:43+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/minified/bootstrap.min.css
+[运行时间：0.019691s] [吞吐率：50.78req/s] [内存消耗：1073.5859375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:43+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/minified/colors.min.css
+[运行时间：0.025069s] [吞吐率：39.89req/s] [内存消耗：1073.5859375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+---------------------------------------------------------------
+[ 2021-04-25T22:09:43+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/minified/core.min.css
+[ 2021-04-25T22:09:43+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/loaders/pace.min.js
+[运行时间：0.046210s] [吞吐率：21.64req/s] [内存消耗：1073.5859375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:43+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/css/minified/components.min.css
+[运行时间：0.058447s] [吞吐率：17.11req/s] [内存消耗：1073.5859375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:43+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/core/libraries/jquery.min.js
+[运行时间：0.018352s] [吞吐率：54.49req/s] [内存消耗：1073.6328125Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:43+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/core/libraries/bootstrap.min.js
+[运行时间：0.021361s] [吞吐率：46.81req/s] [内存消耗：1073.7109375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:44+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/forms/inputs/touchspin.min.js
+[运行时间：0.020798s] [吞吐率：48.08req/s] [内存消耗：1073.6953125Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:44+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/loaders/blockui.min.js
+[运行时间：0.036495s] [吞吐率：27.40req/s] [内存消耗：1073.6484375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:44+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/pages/form_input_groups.js
+[运行时间：0.037990s] [吞吐率：26.32req/s] [内存消耗：1073.4765625Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+---------------------------------------------------------------
+[ 2021-04-25T22:09:44+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/core/app.js
+[运行时间：0.045906s] [吞吐率：21.78req/s] [内存消耗：1073.3984375Kb] [文件加载：108]
+[ 2021-04-25T22:09:44+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/forms/styling/uniform.min.js
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[运行时间：0.046110s] [吞吐率：21.69req/s] [内存消耗：1073.6953125Kb] [文件加载：108]
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:44+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/js/plugins/forms/styling/switchery.min.js
+[运行时间：0.057691s] [吞吐率：17.33req/s] [内存消耗：1073.6953125Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:44+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/images/placeholder.jpg
+[运行时间：0.019637s] [吞吐率：50.92req/s] [内存消耗：1073.6484375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:09:44+08:00 ] 127.0.0.1 GET tp.com/index/admin/assets/images/logo_light.png
+[运行时间：0.024395s] [吞吐率：40.99req/s] [内存消耗：1073.6484375Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => assets
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\index\controller\Admin::assets()
+)

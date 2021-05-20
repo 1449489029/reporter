@@ -1,0 +1,462 @@
+---------------------------------------------------------------
+[ 2021-04-24T19:55:25+08:00 ] 127.0.0.1 GET tp.com/index/admin/AddItem
+[运行时间：0.049697s] [吞吐率：20.12req/s] [内存消耗：1969.2109375Kb] [文件加载：144]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => AddItem
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+---------------------------------------------------------------
+[ 2021-04-24T19:55:25+08:00 ] 127.0.0.1 GET tp.com/layui/dist/css/layui.css
+[运行时间：0.027754s] [吞吐率：36.03req/s] [内存消耗：1042.640625Kb] [文件加载：105]
+[ info ] [ ROUTE ] Array
+(
+    [0] => layui
+    [1] => Dist
+    [2] => css
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\Base.php
+    [line] => 63
+    [message] => Class '\application\layui\controller\Dist' not found
+)
+---------------------------------------------------------------
+[ 2021-04-24T19:55:25+08:00 ] 127.0.0.1 GET tp.com/layui/dist/layui.js
+[运行时间：0.020742s] [吞吐率：48.21req/s] [内存消耗：1042.5234375Kb] [文件加载：105]
+[ info ] [ ROUTE ] Array
+(
+    [0] => layui
+    [1] => Dist
+    [2] => layui.js
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\Base.php
+    [line] => 63
+    [message] => Class '\application\layui\controller\Dist' not found
+)
+---------------------------------------------------------------
+[ 2021-04-24T19:55:27+08:00 ] 127.0.0.1 GET tp.com/index/admin/AddItem
+[运行时间：0.022664s] [吞吐率：44.12req/s] [内存消耗：1099.1796875Kb] [文件加载：102]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => AddItem
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+---------------------------------------------------------------
+[ 2021-04-24T19:55:27+08:00 ] 127.0.0.1 GET tp.com/layui/dist/layui.js
+[运行时间：0.023349s] [吞吐率：42.83req/s] [内存消耗：1050.9140625Kb] [文件加载：105]
+[ info ] [ ROUTE ] Array
+(
+    [0] => layui
+    [1] => Dist
+    [2] => layui.js
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\Base.php
+    [line] => 63
+    [message] => Class '\application\layui\controller\Dist' not found
+)
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\Base.php
+    [line] => 63
+    [message] => Class '\application\layui\controller\Dist' not found
+)
+---------------------------------------------------------------
+[ 2021-04-24T19:57:36+08:00 ] 127.0.0.1 GET tp.com/index/admin/AddItem
+[运行时间：0.020457s] [吞吐率：48.88req/s] [内存消耗：1099.0234375Kb] [文件加载：102]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => AddItem
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+---------------------------------------------------------------
+[ 2021-04-24T19:57:36+08:00 ] 127.0.0.1 GET tp.com/layui/dist/css/layui.css
+[运行时间：0.024465s] [吞吐率：40.87req/s] [内存消耗：1042.640625Kb] [文件加载：105]
+[ info ] [ ROUTE ] Array
+(
+    [0] => layui
+    [1] => Dist
+    [2] => css
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\Base.php
+    [line] => 63
+    [message] => Class '\application\layui\controller\Dist' not found
+)
+---------------------------------------------------------------
+[ 2021-04-24T19:57:36+08:00 ] 127.0.0.1 GET tp.com/layui/dist/layui.js
+[运行时间：0.035477s] [吞吐率：28.19req/s] [内存消耗：1042.5234375Kb] [文件加载：105]
+[ info ] [ ROUTE ] Array
+(
+    [0] => layui
+    [1] => Dist
+    [2] => layui.js
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => */*
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\Base.php
+    [line] => 63
+    [message] => Class '\application\layui\controller\Dist' not found
+)
+---------------------------------------------------------------
+[ 2021-04-24T19:58:52+08:00 ] 127.0.0.1 GET tp.com/index/admin/AddItem
+[运行时间：0.034397s] [吞吐率：29.07req/s] [内存消耗：1969.2109375Kb] [文件加载：144]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => AddItem
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+---------------------------------------------------------------
+[ 2021-04-24T19:58:52+08:00 ] 127.0.0.1 GET tp.com/layui/dist/css/layui.css
+[运行时间：0.018417s] [吞吐率：54.30req/s] [内存消耗：1042.640625Kb] [文件加载：105]
+[ info ] [ ROUTE ] Array
+(
+    [0] => layui
+    [1] => Dist
+    [2] => css
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\Base.php
+    [line] => 63
+    [message] => Class '\application\layui\controller\Dist' not found
+)
+---------------------------------------------------------------
+[ 2021-04-24T19:58:58+08:00 ] 127.0.0.1 GET tp.com/index/admin/AddItem
+[运行时间：0.021415s] [吞吐率：46.70req/s] [内存消耗：1099.1796875Kb] [文件加载：102]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => AddItem
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+---------------------------------------------------------------
+[ 2021-04-24T19:58:58+08:00 ] 127.0.0.1 GET tp.com/layui/dist/css/layui.css
+[运行时间：0.020858s] [吞吐率：47.94req/s] [内存消耗：1051.09375Kb] [文件加载：105]
+[ info ] [ ROUTE ] Array
+(
+    [0] => layui
+    [1] => Dist
+    [2] => css
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\Base.php
+    [line] => 63
+    [message] => Class '\application\layui\controller\Dist' not found
+)
+---------------------------------------------------------------
+[ 2021-04-24T19:59:08+08:00 ] 127.0.0.1 GET tp.com/index/admin/AddItem
+[运行时间：0.015794s] [吞吐率：63.32req/s] [内存消耗：1099.1796875Kb] [文件加载：102]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => AddItem
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+---------------------------------------------------------------
+[ 2021-04-24T19:59:09+08:00 ] 127.0.0.1 GET tp.com/layui/dist/css/layui.css
+[运行时间：0.018424s] [吞吐率：54.28req/s] [内存消耗：1051.09375Kb] [文件加载：105]
+[ info ] [ ROUTE ] Array
+(
+    [0] => layui
+    [1] => Dist
+    [2] => css
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/admin/AddItem
+    [Accept] => text/css,*/*;q=0.1
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Cache-Control] => no-cache
+    [Pragma] => no-cache
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\Base.php
+    [line] => 63
+    [message] => Class '\application\layui\controller\Dist' not found
+)

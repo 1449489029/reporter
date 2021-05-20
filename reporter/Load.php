@@ -21,7 +21,6 @@ class Load
         // 将类名称的\转换为/
         $class = str_replace('\\', '/', $class);
 
-
         // 拼接类文件的路径
         $filePath = ROOT_PATH . '/' . $class . '.php';
 

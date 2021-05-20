@@ -1,0 +1,133 @@
+---------------------------------------------------------------
+[ 2021-04-15T19:57:19+08:00 ] 127.0.0.1 POST tp.com/index/index/testuploadFile
+[运行时间：0.016029s] [吞吐率：62.39req/s] [内存消耗：855.3515625Kb] [文件加载：46]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Index
+    [2] => testuploadFile
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/index/testuploadFile
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [Content-Type] => multipart/form-data; boundary=----WebKitFormBoundarySs66UGB7qMz9XsYB
+    [Origin] => http://tp.com
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Content-Length] => 42923275
+    [Connection] => keep-alive
+    [Host] => tp.com
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\Base.php
+    [line] => 43
+    [message] => Call to private method reporter\lib\Injection::getInstance() from context 'reporter\Base'
+)
+---------------------------------------------------------------
+[ 2021-04-15T19:57:37+08:00 ] 127.0.0.1 POST tp.com/index/index/testuploadFile
+[运行时间：0.012007s] [吞吐率：83.28req/s] [内存消耗：855.3515625Kb] [文件加载：46]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Index
+    [2] => testuploadFile
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/index/testuploadFile
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [Content-Type] => multipart/form-data; boundary=----WebKitFormBoundarySs66UGB7qMz9XsYB
+    [Origin] => http://tp.com
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Content-Length] => 42923275
+    [Connection] => keep-alive
+    [Host] => tp.com
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\Base.php
+    [line] => 43
+    [message] => Call to private method reporter\lib\Injection::getInstance() from context 'reporter\Base'
+)
+---------------------------------------------------------------
+[ 2021-04-15T19:58:14+08:00 ] 127.0.0.1 GET tp.com/index/index/testuploadFile
+[运行时间：0.012939s] [吞吐率：77.29req/s] [内存消耗：852.7578125Kb] [文件加载：46]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Index
+    [2] => testuploadFile
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\Base.php
+    [line] => 43
+    [message] => Call to private method reporter\lib\Injection::getInstance() from context 'reporter\Base'
+)
+---------------------------------------------------------------
+[ 2021-04-15T19:59:21+08:00 ] 127.0.0.1 GET tp.com/index/index/testuploadFile
+[运行时间：0.119917s] [吞吐率：8.34req/s] [内存消耗：895.6640625Kb] [文件加载：45]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Index
+    [2] => testuploadFile
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+

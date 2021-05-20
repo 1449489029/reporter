@@ -62,7 +62,6 @@ require CORE_PATH . '/common/function.php';
 require CORE_PATH . '/Load.php';
 spl_autoload_register('\reporter\Load::bind');
 
-
 // 开启框架
 \reporter\Base::run();
 

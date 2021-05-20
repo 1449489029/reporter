@@ -1,0 +1,81 @@
+---------------------------------------------------------------
+[ 2021-04-15T11:13:26+08:00 ] 127.0.0.1 GET tp.com/index/index/write
+[运行时间：0.017026s] [吞吐率：58.73req/s] [内存消耗：861.9296875Kb] [文件加载：45]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Index
+    [2] => write
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ info ] Array
+(
+    [0] => 测试写入日志1
+)
+[ info ] 测试写入日志2
+[ info ] 测试写入日志3
+[ info ] 测试写入日志4
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\application\index\controller\Index.php
+    [line] => 51
+    [message] => ddd
+)
+---------------------------------------------------------------
+[ 2021-04-15T11:13:52+08:00 ] 127.0.0.1 GET tp.com/index/index/write
+[运行时间：0.014581s] [吞吐率：68.58req/s] [内存消耗：862.1015625Kb] [文件加载：45]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Index
+    [2] => write
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ info ] Array
+(
+    [0] => 测试写入日志1
+)
+[ info ] 测试写入日志2
+[ info ] 测试写入日志3
+[ info ] 测试写入日志4
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\application\index\controller\Index.php
+    [line] => 51
+    [message] => ddd
+)

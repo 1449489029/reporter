@@ -1,0 +1,85 @@
+---------------------------------------------------------------
+[ 2021-04-15T16:30:07+08:00 ] 127.0.0.1 GET tp.com/index/index/testuploadFile
+[运行时间：0.017486s] [吞吐率：57.19req/s] [内存消耗：886.0703125Kb] [文件加载：43]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Index
+    [2] => testuploadFile
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+---------------------------------------------------------------
+[ 2021-04-15T16:30:08+08:00 ] 127.0.0.1 GET tp.com/index/index/testuploadFile
+[运行时间：0.013309s] [吞吐率：75.14req/s] [内存消耗：886.2421875Kb] [文件加载：43]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Index
+    [2] => testuploadFile
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+---------------------------------------------------------------
+[ 2021-04-15T16:30:19+08:00 ] 127.0.0.1 POST tp.com/index/index/testuploadFile
+[运行时间：0.004549s] [吞吐率：219.83req/s] [内存消耗：274.7421875Kb] [文件加载：26]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Index
+    [2] => testuploadFile
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/index/testuploadFile
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Content-Type] => multipart/form-data; boundary=----WebKitFormBoundaryt149g3iiBAqhAaBq
+    [Origin] => http://tp.com
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Content-Length] => 92703
+    [Connection] => keep-alive
+    [Host] => tp.com
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+

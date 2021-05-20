@@ -34,6 +34,11 @@ class DB extends Base
      */
     protected static $alias = '';
 
+    /**
+     * @var int 设置返回的数据格式
+     */
+    protected static $fetchMode = \PDO::FETCH_ASSOC;
+
 
     /**
      * @var array 链表查询配置
@@ -388,6 +393,32 @@ class DB extends Base
     }
 
     /**
+     * 执行原生SQL
+     *
+     * @param string $sql SQL语句
+     * @return mixed
+     */
+    public static function query(string $sql)
+    {
+        // 实例化当前类
+        self::$that = new self();
+        // 记录开始执行的时间
+        $startTime = microtime(true);
+        // 执行查询语句
+        $stmt = self::$pdo->query($sql);
+        // 设置返回的数据格式
+        $stmt->setFetchMode(self::$fetchMode);
+        // 获取所有数据集的数据
+        $result = $stmt->fetchAll();
+        // 计算查询结束的意思
+        $endTime = microtime(true);
+        // 是否执行成功
+        Log::record('[ sql ] ' . $sql . ' [RunTime:' . round($endTime - $startTime, 5) . 's]');
+
+        return $result;
+    }
+
+    /**
      * 获取表字段
      *
      * @return array
@@ -423,6 +454,7 @@ class DB extends Base
         // 获取所有参数
         $params = $this->getAllParams($action);
 
+        // 依次将每个标识符替换为对应的参数
         foreach ($params as $param) {
             $sql = preg_replace('/\?/', "'" . $param . "'", $sql, 1);
         }
@@ -438,9 +470,9 @@ class DB extends Base
             Log::record('[ sql ] ' . $sql . ' [RunTime:' . round($endTime - $startTime, 5) . 's]');
         }
 
-        if ($action == self::ACTION_SELECT || $action == self::ACTION_DESC) {
+        if ($action == self::ACTION_SELECT || $action == self::ACTION_DESC || $action == self::ACTION_SHOW) {
             // 设置返回的数据格式
-            $stmt->setFetchMode(\PDO::FETCH_ASSOC);
+            $stmt->setFetchMode(self::$fetchMode);
             // 获取所有数据集的数据
             $result = $stmt->fetchAll();
         } else {

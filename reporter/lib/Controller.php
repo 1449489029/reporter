@@ -42,7 +42,7 @@ class Controller
             // 加载视图文件
             $template = $twig->load(self::$Route->controller . '/' . $file);
             // 为视图加载变量，并输出视图。
-            echo $template->render($this->assignVars ? $this->assignVars : '');
+            echo $template->render($this->assignVars ? $this->assignVars : []);
         }
     }
 

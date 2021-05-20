@@ -1,0 +1,214 @@
+---------------------------------------------------------------
+[ 2021-04-26T14:15:17+08:00 ] 127.0.0.1 GET tp.com/admin/Items/Add
+[运行时间：0.033162s] [吞吐率：30.15req/s] [内存消耗：1282.484375Kb] [文件加载：103]
+[ info ] [ ROUTE ] Array
+(
+    [0] => admin
+    [1] => Items
+    [2] => Add
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+---------------------------------------------------------------
+[ 2021-04-26T14:15:22+08:00 ] 127.0.0.1 POST tp.com/admin/Items/undefined/AssistSystem/getBackpackOptionDatas
+[运行时间：0.035016s] [吞吐率：28.56req/s] [内存消耗：1084.171875Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => admin
+    [1] => Items
+    [2] => undefined
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/admin/Items/Add
+    [Origin] => http://tp.com
+    [Content-Type] => application/x-www-form-urlencoded; charset=UTF-8
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [X-Requested-With] => XMLHttpRequest
+    [Accept] => application/json, text/javascript, */*; q=0.01
+    [Content-Length] => 98
+    [Connection] => keep-alive
+    [Host] => tp.com
+)
+
+[ info ] [ PARAM ] Array
+(
+    [VerifyToken] => CX^SJNi7TuJhO&w#RjTWfLvNkJvBKAuuD9NnzQIs6gbsR4S0fawknRfCj3$U2Q$a
+    [RoleID] => 5323
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\admin\controller\Items::undefined()
+)
+---------------------------------------------------------------
+[ 2021-04-26T14:18:10+08:00 ] 127.0.0.1 GET tp.com/admin/Items/Add
+[运行时间：0.027933s] [吞吐率：35.80req/s] [内存消耗：1282.484375Kb] [文件加载：103]
+[ info ] [ ROUTE ] Array
+(
+    [0] => admin
+    [1] => Items
+    [2] => Add
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+---------------------------------------------------------------
+[ 2021-04-26T14:18:15+08:00 ] 127.0.0.1 POST tp.com/admin/Items/1/AssistSystem/getBackpackOptionDatas
+[运行时间：0.040069s] [吞吐率：24.96req/s] [内存消耗：1084.046875Kb] [文件加载：108]
+[ info ] [ ROUTE ] Array
+(
+    [0] => admin
+    [1] => Items
+    [2] => 1
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/admin/Items/Add
+    [Origin] => http://tp.com
+    [Content-Type] => application/x-www-form-urlencoded; charset=UTF-8
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [X-Requested-With] => XMLHttpRequest
+    [Accept] => application/json, text/javascript, */*; q=0.01
+    [Content-Length] => 98
+    [Connection] => keep-alive
+    [Host] => tp.com
+)
+
+[ info ] [ PARAM ] Array
+(
+    [VerifyToken] => CX^SJNi7TuJhO&w#RjTWfLvNkJvBKAuuD9NnzQIs6gbsR4S0fawknRfCj3$U2Q$a
+    [RoleID] => 5323
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 42
+    [message] => Call to undefined method application\admin\controller\Items::1()
+)
+---------------------------------------------------------------
+[ 2021-04-26T14:18:38+08:00 ] 127.0.0.1 GET tp.com/admin/Items/Add
+[运行时间：0.028758s] [吞吐率：34.77req/s] [内存消耗：1282.484375Kb] [文件加载：103]
+[ info ] [ ROUTE ] Array
+(
+    [0] => admin
+    [1] => Items
+    [2] => Add
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+---------------------------------------------------------------
+[ 2021-04-26T14:19:20+08:00 ] 127.0.0.1 GET tp.com/admin/Items/Add
+[运行时间：0.033750s] [吞吐率：29.63req/s] [内存消耗：1282.484375Kb] [文件加载：103]
+[ info ] [ ROUTE ] Array
+(
+    [0] => admin
+    [1] => Items
+    [2] => Add
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+---------------------------------------------------------------
+[ 2021-04-26T14:19:59+08:00 ] 127.0.0.1 GET tp.com/admin/Items/Add
+[运行时间：0.028028s] [吞吐率：35.68req/s] [内存消耗：1282.484375Kb] [文件加载：103]
+[ info ] [ ROUTE ] Array
+(
+    [0] => admin
+    [1] => Items
+    [2] => Add
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+

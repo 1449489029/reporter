@@ -1,0 +1,96 @@
+---------------------------------------------------------------
+[ 2021-04-26T14:28:07+08:00 ] 127.0.0.1 GET tp.com/admin/Items/Add
+[运行时间：0.042116s] [吞吐率：23.74req/s] [内存消耗：2167.1328125Kb] [文件加载：149]
+[ info ] [ ROUTE ] Array
+(
+    [0] => admin
+    [1] => Items
+    [2] => Add
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+---------------------------------------------------------------
+[ 2021-04-26T14:29:33+08:00 ] 127.0.0.1 GET tp.com/admin/Items/Add
+[运行时间：0.029497s] [吞吐率：33.90req/s] [内存消耗：1282.484375Kb] [文件加载：103]
+[ info ] [ ROUTE ] Array
+(
+    [0] => admin
+    [1] => Items
+    [2] => Add
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+---------------------------------------------------------------
+[ 2021-04-26T14:29:48+08:00 ] 127.0.0.1 POST tp.com/AssistSystem/addItem
+[运行时间：0.024425s] [吞吐率：40.94req/s] [内存消耗：1053.78125Kb] [文件加载：105]
+[ info ] [ ROUTE ] Array
+(
+    [0] => AssistSystem
+    [1] => AddItem
+    [2] => index
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/admin/Items/Add
+    [Origin] => http://tp.com
+    [Content-Type] => application/x-www-form-urlencoded; charset=UTF-8
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [X-Requested-With] => XMLHttpRequest
+    [Accept] => application/json, text/javascript, */*; q=0.01
+    [Content-Length] => 135
+    [Connection] => keep-alive
+    [Host] => tp.com
+)
+
+[ info ] [ PARAM ] Array
+(
+    [VerifyToken] => CX^SJNi7TuJhO&w#RjTWfLvNkJvBKAuuD9NnzQIs6gbsR4S0fawknRfCj3$U2Q$a
+    [RoleID] => 5323
+    [PlanetID] => 0
+    [ItemID] => 210002
+    [Quantity] => 10
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\Base.php
+    [line] => 63
+    [message] => Class '\application\AssistSystem\controller\AddItem' not found
+)

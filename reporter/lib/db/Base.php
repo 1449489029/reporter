@@ -14,6 +14,7 @@ class Base
     const ACTION_UPDATE = 'UPDATE'; // 更新
     const ACTION_DELETE = 'DELETE'; // 删除
     const ACTION_DESC = 'DESC'; // 表结构详细
+    const ACTION_SHOW = 'SHOW'; // 显示所有表或数据库
     const ACTION_FIELD = 'FIELD'; // 字段
     const ACTION_WHERE = 'WHERE'; // 条件
     const ACTION_ORDER = 'ORDER'; // 排序

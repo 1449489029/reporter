@@ -73,6 +73,8 @@ class Injection
                         $paramClassName = $param->getType();
                         $paramClassName = $paramClassName->getName();
 
+//                        $this->getInstance($paramClassName);
+
                         // 递归获取这个类的构造函数的参数
                         $paramClassParams = self::getMethodParams($paramClassName);
 
@@ -81,10 +83,10 @@ class Injection
                         // 制作
 //                        $injectionParams[] = Container::make($paramClassName);
 //                        } else {
-                            $paramClass = (new \ReflectionClass($paramClassName))->newInstanceArgs($paramClassParams);
+                        $paramClass = (new \ReflectionClass($paramClassName))->newInstanceArgs($paramClassParams);
 
 //                            Container::bind($paramClassName, $paramClass);
-                            $injectionParams[] = $paramClass;
+                        $injectionParams[] = $paramClass;
 //                        }
                     }
                 }

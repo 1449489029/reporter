@@ -1,0 +1,102 @@
+---------------------------------------------------------------
+[ 2021-04-15T18:48:53+08:00 ] 127.0.0.1 POST tp.com/index/index/testuploadFile
+[运行时间：0.015945s] [吞吐率：62.72req/s] [内存消耗：902.765625Kb] [文件加载：49]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Index
+    [2] => testuploadFile
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/index/testuploadFile
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [Content-Type] => multipart/form-data; boundary=----WebKitFormBoundarySs66UGB7qMz9XsYB
+    [Origin] => http://tp.com
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Content-Length] => 42923275
+    [Connection] => keep-alive
+    [Host] => tp.com
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\application\index\controller\Index.php
+    [line] => 99
+    [message] => Call to undefined method Closure::getFile()
+)
+---------------------------------------------------------------
+[ 2021-04-15T18:49:16+08:00 ] 127.0.0.1 POST tp.com/index/index/testuploadFile
+[运行时间：0.013943s] [吞吐率：71.72req/s] [内存消耗：903.5078125Kb] [文件加载：49]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Index
+    [2] => testuploadFile
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/index/testuploadFile
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [Content-Type] => multipart/form-data; boundary=----WebKitFormBoundarySs66UGB7qMz9XsYB
+    [Origin] => http://tp.com
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Content-Length] => 42923275
+    [Connection] => keep-alive
+    [Host] => tp.com
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\application\index\controller\Index.php
+    [line] => 99
+    [message] => Call to undefined method Closure::getFile()
+)
+---------------------------------------------------------------
+[ 2021-04-15T18:49:31+08:00 ] 127.0.0.1 POST tp.com/index/index/testuploadFile
+[运行时间：0.588469s] [吞吐率：1.70req/s] [内存消耗：285.5703125Kb] [文件加载：27]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Index
+    [2] => testuploadFile
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/index/testuploadFile
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [Content-Type] => multipart/form-data; boundary=----WebKitFormBoundarySs66UGB7qMz9XsYB
+    [Origin] => http://tp.com
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Content-Length] => 42923275
+    [Connection] => keep-alive
+    [Host] => tp.com
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+

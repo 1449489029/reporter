@@ -8,6 +8,8 @@ use reporter\lib\Injection;
 use reporter\lib\Request;
 use reporter\lib\Env;
 use reporter\lib\Container;
+use reporter\lib\ReporterContainerProvider;
+use reporter\lib\Config;
 
 
 class Base
@@ -36,11 +38,19 @@ class Base
             if (is_file($envFilePath)) {
                 Env::loadFile($envFilePath);
             }
-            // 自动绑定注册的服务
-            $registerFilePath = CONFIG_PATH . '/register.php';
-            $registers = require $registerFilePath;
-            foreach ($registers as $alias => $server) {
-                Container::bind($alias, Injection::make($server));
+
+            // 实例化"服务容器"
+            $Container = new Container();
+
+            // 自动绑定框架注册的服务
+            $ReporterContainerProvider = new ReporterContainerProvider($Container);
+            $ReporterContainerProvider->register();
+            // 获取应用定制的服务提供者
+            $providers = Config::get('providers', 'app');
+            foreach ((array)$providers as $provider) {
+                $providerInstance = new $provider($Container);
+                // 注册服务
+                $providerInstance->register();
             }
 
 

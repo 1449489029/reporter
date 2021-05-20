@@ -1,0 +1,246 @@
+---------------------------------------------------------------
+[ 2021-04-24T19:50:52+08:00 ] 127.0.0.1 GET tp.com/admin/AddItem
+[运行时间：0.391830s] [吞吐率：2.55req/s] [内存消耗：1050.859375Kb] [文件加载：105]
+[ info ] [ ROUTE ] Array
+(
+    [0] => admin
+    [1] => AddItem
+    [2] => index
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\Base.php
+    [line] => 63
+    [message] => Class '\application\admin\controller\AddItem' not found
+)
+---------------------------------------------------------------
+[ 2021-04-24T19:51:01+08:00 ] 127.0.0.1 GET tp.com/index/admin/AddItem
+[运行时间：0.044357s] [吞吐率：22.54req/s] [内存消耗：499.9921875Kb] [文件加载：84]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => AddItem
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+---------------------------------------------------------------
+[ 2021-04-24T19:51:20+08:00 ] 127.0.0.1 GET tp.com/index/admin/AddItem
+[运行时间：0.234239s] [吞吐率：4.27req/s] [内存消耗：2613.796875Kb] [文件加载：168]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => AddItem
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\vendor\twig\twig\src\TemplateWrapper.php
+    [line] => 41
+    [message] => Argument 1 passed to Twig\TemplateWrapper::render() must be of the type array, string given, called in D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Controller.php on line 45
+)
+---------------------------------------------------------------
+[ 2021-04-24T19:52:14+08:00 ] 127.0.0.1 GET tp.com/index/admin/AddItem
+[运行时间：0.030740s] [吞吐率：32.53req/s] [内存消耗：1744.1875Kb] [文件加载：126]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => AddItem
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\vendor\twig\twig\src\TemplateWrapper.php
+    [line] => 41
+    [message] => Argument 1 passed to Twig\TemplateWrapper::render() must be of the type array, string given, called in D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Controller.php on line 45
+)
+---------------------------------------------------------------
+[ 2021-04-24T19:52:15+08:00 ] 127.0.0.1 GET tp.com/index/admin/AddItem
+[运行时间：0.023830s] [吞吐率：41.96req/s] [内存消耗：1744.1875Kb] [文件加载：126]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => AddItem
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\vendor\twig\twig\src\TemplateWrapper.php
+    [line] => 41
+    [message] => Argument 1 passed to Twig\TemplateWrapper::render() must be of the type array, string given, called in D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Controller.php on line 45
+)
+---------------------------------------------------------------
+[ 2021-04-24T19:53:02+08:00 ] 127.0.0.1 GET tp.com/index/admin/AddItem
+[运行时间：0.021433s] [吞吐率：46.66req/s] [内存消耗：1099.0234375Kb] [文件加载：102]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => AddItem
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+---------------------------------------------------------------
+[ 2021-04-24T19:53:10+08:00 ] 127.0.0.1 GET tp.com/index/admin/AddItem
+[运行时间：0.020461s] [吞吐率：48.87req/s] [内存消耗：1099.0234375Kb] [文件加载：102]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => AddItem
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+---------------------------------------------------------------
+[ 2021-04-24T19:53:19+08:00 ] 127.0.0.1 GET tp.com/index/admin/AddItem
+[运行时间：0.028036s] [吞吐率：35.67req/s] [内存消耗：1099.0234375Kb] [文件加载：102]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => AddItem
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+

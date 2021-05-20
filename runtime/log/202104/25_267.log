@@ -1,0 +1,62 @@
+---------------------------------------------------------------
+[ 2021-04-25T22:18:49+08:00 ] 127.0.0.1 GET tp.com/index/admin/AddItem
+[运行时间：0.088510s] [吞吐率：11.30req/s] [内存消耗：3385Kb] [文件加载：174]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => AddItem
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\application\index\view\base.html
+    [line] => 23
+    [message] => The block 'head' has already been defined line 4.
+)
+---------------------------------------------------------------
+[ 2021-04-25T22:19:20+08:00 ] 127.0.0.1 GET tp.com/index/admin/AddItem
+[运行时间：0.048743s] [吞吐率：20.52req/s] [内存消耗：2516.15625Kb] [文件加载：147]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Admin
+    [2] => AddItem
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Connection] => keep-alive
+    [Host] => tp.com
+    [Content-Length] => 
+    [Content-Type] => 
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+

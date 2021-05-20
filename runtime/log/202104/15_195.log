@@ -1,0 +1,102 @@
+---------------------------------------------------------------
+[ 2021-04-15T16:17:21+08:00 ] 127.0.0.1 POST tp.com/index/index/testuploadFile
+[运行时间：0.018205s] [吞吐率：54.93req/s] [内存消耗：918.34375Kb] [文件加载：46]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Index
+    [2] => testuploadFile
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/index/testuploadFile
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [Content-Type] => multipart/form-data; boundary=----WebKitFormBoundaryhGX3a7ubPANfPk4B
+    [Origin] => http://tp.com
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Content-Length] => 2147
+    [Connection] => keep-alive
+    [Host] => tp.com
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 59
+    [message] => Class reporter\lib\UploadFile does not exist
+)
+---------------------------------------------------------------
+[ 2021-04-15T16:18:16+08:00 ] 127.0.0.1 POST tp.com/index/index/testuploadFile
+[运行时间：0.015868s] [吞吐率：63.02req/s] [内存消耗：918.34375Kb] [文件加载：46]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Index
+    [2] => testuploadFile
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/index/testuploadFile
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [Content-Type] => multipart/form-data; boundary=----WebKitFormBoundaryhGX3a7ubPANfPk4B
+    [Origin] => http://tp.com
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Content-Length] => 2147
+    [Connection] => keep-alive
+    [Host] => tp.com
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
+[ error ] Array
+(
+    [file] => D:\phpstudy_pro\WWW\chenbingji\reporter\reporter\lib\Injection.php
+    [line] => 59
+    [message] => Class reporter\lib\UploadFile does not exist
+)
+---------------------------------------------------------------
+[ 2021-04-15T16:18:25+08:00 ] 127.0.0.1 POST tp.com/index/index/testuploadFile
+[运行时间：0.007648s] [吞吐率：130.75req/s] [内存消耗：275.3125Kb] [文件加载：26]
+[ info ] [ ROUTE ] Array
+(
+    [0] => index
+    [1] => Index
+    [2] => testuploadFile
+)
+
+[ info ] [ HEADER ] Array
+(
+    [Accept-Language] => zh-CN,zh;q=0.9
+    [Accept-Encoding] => gzip, deflate
+    [Referer] => http://tp.com/index/index/testuploadFile
+    [Accept] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+    [Content-Type] => multipart/form-data; boundary=----WebKitFormBoundaryhGX3a7ubPANfPk4B
+    [Origin] => http://tp.com
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+    [Upgrade-Insecure-Requests] => 1
+    [Cache-Control] => max-age=0
+    [Content-Length] => 2147
+    [Connection] => keep-alive
+    [Host] => tp.com
+)
+
+[ info ] [ PARAM ] Array
+(
+)
+
