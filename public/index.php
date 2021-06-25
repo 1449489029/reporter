@@ -62,11 +62,21 @@ require CORE_PATH . '/common/function.php';
 require CORE_PATH . '/Load.php';
 spl_autoload_register('\reporter\Load::bind');
 
-// 开启框架
-\reporter\Base::run();
+// 加载注册的服务
+$app = require_once ROOT_PATH . '/bootstrap/app.php';
+
+// 获取请求服务
+$Request = $app->make(reporter\lib\Request::class);
 
 
-
+// 进入管道开启框架
+(new reporter\lib\Pipeline())
+    ->setRequest($Request)
+    ->setMiddleware([
+        reporter\lib\middleware\BeforeRun::class,
+        reporter\lib\middleware\AfterRun::class
+    ])
+    ->run($app);
 
 
 

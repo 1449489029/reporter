@@ -18,11 +18,34 @@ class Container
      */
     protected $aliases = [];
 
-
     /**
      * @var array 已实例化的单例服务
      */
     protected $instances = [];
+
+    /**
+     * @var Container|NULL 实例
+     */
+    public static $that;
+
+
+    private function __construct()
+    {
+    }
+
+    /**
+     * 获取实例
+     *
+     * @return Container
+     */
+    public static function instance()
+    {
+        if (!self::$that instanceof Container) {
+            self::$that = new self();
+        }
+
+        return self::$that;
+    }
 
 
     /**

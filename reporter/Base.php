@@ -2,6 +2,7 @@
 
 namespace reporter;
 
+use reporter\lib\Application;
 use reporter\lib\Log;
 use reporter\lib\Route;
 use reporter\lib\Injection;
@@ -26,11 +27,14 @@ class Base
 
     /**
      * 开启框架
+     *
+     * @param Application $app
      */
-    public static function run()
+    public function run(Application $app)
     {
         self::$Request = new Request();
-        self::start();
+        $Route = new Route(self::$Request);
+
         $Log = Log::init();
         try {
             // 加载环境变量
@@ -40,34 +44,37 @@ class Base
             }
 
             // 实例化"服务容器"
-            $Container = new Container();
+//            $Container = Container::instance();
 
             // 自动绑定框架注册的服务
-            $ReporterContainerProvider = new ReporterContainerProvider($Container);
-            $ReporterContainerProvider->register();
+//            $ReporterContainerProvider = new ReporterContainerProvider($Container);
+//            $ReporterContainerProvider->register();
             // 获取应用定制的服务提供者
-            $providers = Config::get('providers', 'app');
-            foreach ((array)$providers as $provider) {
-                $providerInstance = new $provider($Container);
-                // 注册服务
-                $providerInstance->register();
-            }
+//            $providers = Config::get('providers', 'app');
+//            foreach ((array)$providers as $provider) {
+//                $providerInstance = new $provider($Container);
+//                // 注册服务
+//                $providerInstance->register();
+//            }
 
 
             // 定义控制器名
-            $controllerName = '\application\\' . self::$Route->model . '\controller\\' . self::$Route->controller;
+            $controllerName = '\application\\' . $Route->model . '\controller\\' . $Route->controller;
             // 定义控制器的指定函数名
-            $actionName = self::$Route->action;
+            $actionName = $Route->action;
 
             // 实例化类
-            $Controller = new $controllerName(self::$Route);
-            if (!empty(self::$Route->queryParams)) {
+            $Controller = new $controllerName($Route);
+            if (!empty($Route->queryParams)) {
                 // 调用函数并传递参数
-                Injection::make($controllerName, $actionName, self::$Route->queryParams);
-//                call_user_func_array([$Controller, $actionName], self::$Route->queryParams);
+//                Injection::make($controllerName, $actionName, $Route->queryParams);
+                $app->make($controllerName);
+//                call_user_func_array([$Controller, $actionName], $Route->queryParams);
             } else {
                 // 只调用函数
-                Injection::make($controllerName, $actionName);
+//                Injection::make($controllerName, $actionName);
+                $controller = $app->make($controllerName);
+
 //                $Controller->$actionName();
             }
         } catch (\Exception $e) {
@@ -103,96 +110,7 @@ class Base
                 echo $html;
             }
         }
-
-        self::end();
-
     }
 
-    /**
-     * 开始运行时触发
-     */
-    protected static function start()
-    {
-        $Log = Log::init();
-
-        $Log::log('---------------------------------------------------------------');
-        $headLog = '[ ' . date(DATE_ATOM) . ' ] ' . self::$Request->clientIP . ' ' . self::$Request->method . ' ' . self::$Request->domain . self::$Request->uri;
-        $Log::log($headLog);
-
-        $Route = self::$Route = new Route(self::$Request);
-
-        $routeData = [
-            $Route->model,
-            $Route->controller,
-            $Route->action
-        ];
-        $routeLog = '[ ROUTE ] ' . print_r($routeData, true);
-        $Log::record($routeLog);
-        $headerLog = '[ HEADER ] ' . print_r(self::$Request->getHeader(), true);
-        $Log::record($headerLog);
-        $paramsLog = '[ PARAM ] ' . print_r(self::$Request->getParams(), true);
-        $Log::record($paramsLog);
-    }
-
-    /**
-     * 结束运行时触发
-     */
-    protected static function end()
-    {
-        $Log = Log::init();
-
-        $useTime = self::getUseTime();
-        $throughputRate = self::getThroughputRate($useTime);
-        $memoryUsage = self::getMemoryUsage();
-        $fileIncludeCount = self::getFileIncludeCount();
-        $headLog = '[运行时间：' . $useTime . 's] [吞吐率：' . $throughputRate . '] [内存消耗：' . $memoryUsage . '] [文件加载：' . $fileIncludeCount . ']';
-        $Log::log($headLog);
-
-        // 写入日志
-        $Log::writeAll();
-    }
-
-    /**
-     * 计算运行耗时
-     *
-     * @return float
-     */
-    protected static function getUseTime()
-    {
-        return number_format((microtime(true) - START_TIME), 6);
-    }
-
-    /**
-     * 计算当前访问的吞吐率情况
-     *
-     * @param float $useTime 运行耗时
-     * @return string
-     */
-    protected static function getThroughputRate($useTime)
-    {
-        return number_format(1 / $useTime, 2) . 'req/s';
-    }
-
-    /**
-     * 获取内存消耗
-     *
-     * @return string
-     */
-    protected static function getMemoryUsage()
-    {
-        $result = ((memory_get_usage() - START_MEMORY) / 1024) . 'Kb';
-
-        return $result;
-    }
-
-    /**
-     * 获取文件加载数量
-     *
-     * @return int
-     */
-    protected static function getFileIncludeCount()
-    {
-        return count(get_included_files());
-    }
 
 }
