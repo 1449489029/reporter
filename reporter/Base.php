@@ -67,13 +67,13 @@ class Base
             $Controller = new $controllerName($Route);
             if (!empty($Route->queryParams)) {
                 // 调用函数并传递参数
-//                Injection::make($controllerName, $actionName, $Route->queryParams);
-                $app->make($controllerName);
+                Injection::make($controllerName, $actionName, $Route->queryParams);
+//                $app->make($controllerName);
 //                call_user_func_array([$Controller, $actionName], $Route->queryParams);
             } else {
                 // 只调用函数
-//                Injection::make($controllerName, $actionName);
-                $controller = $app->make($controllerName);
+                Injection::make($controllerName, $actionName);
+//                $controller = $app->make($controllerName);
 
 //                $Controller->$actionName();
             }
