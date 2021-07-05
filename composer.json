@@ -5,6 +5,7 @@
     "filp/whoops": "*",
     "catfan/medoo": "*",
     "twig/twig": "*",
-    "phpoffice/phpspreadsheet": "^1.2"
+    "phpoffice/phpspreadsheet": "^1.2",
+    "guzzlehttp/guzzle": "^7.3"
   }
 }

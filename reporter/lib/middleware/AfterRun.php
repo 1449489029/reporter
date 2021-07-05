@@ -19,17 +19,15 @@ class AfterRun
     {
         $nextRunResult = $next();
 
-        $Log = Log::init();
-
         $useTime = self::getUseTime();
         $throughputRate = self::getThroughputRate($useTime);
         $memoryUsage = self::getMemoryUsage();
         $fileIncludeCount = self::getFileIncludeCount();
         $headLog = '[运行时间：' . $useTime . 's] [吞吐率：' . $throughputRate . '] [内存消耗：' . $memoryUsage . '] [文件加载：' . $fileIncludeCount . ']';
-        $Log::log($headLog);
+        Log::log($headLog);
 
         // 写入日志
-        $Log::writeAll();
+        Log::writeAll();
 
         return $nextRunResult;
     }

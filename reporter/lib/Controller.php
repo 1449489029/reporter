@@ -6,14 +6,14 @@ namespace reporter\lib;
 class Controller
 {
     /**
-     * @var \reporter\lib\Route
+     * @var \reporter\lib\Application
      */
-    public static $Route;
+    public $app;
 
 
-    public function __construct(\reporter\lib\Route $Route)
+    public function __construct(\reporter\lib\Application $app)
     {
-        self::$Route = $Route;
+        $this->app = $app;
     }
 
     /**
@@ -29,20 +29,24 @@ class Controller
      */
     public function display($file)
     {
+        $Route = $this->app->make(\reporter\lib\Route::class);
+
         // 加载视图文件
-        $filePath = APP_PATH . '/' . self::$Route->model . '/view/' . self::$Route->controller . '/' . $file;
-        if (is_file($filePath)) {
+        $filePath = APP_PATH . '/' . $Route->model . '/view/' . $Route->controller . '/' . $file;
+        if (is_file($filePath) == true) {
             // 设置视图目录
-            $loader = new \Twig\Loader\FilesystemLoader(APP_PATH . '/' . self::$Route->model . '/view/');
+            $loader = new \Twig\Loader\FilesystemLoader(APP_PATH . '/' . $Route->model . '/view/');
             // 配置缓存存放目录
             $twig = new \Twig\Environment($loader, [
                 'cache' => VIEW_CACHE_PATH,
                 'debug' => IS_DEBUG
             ]);
             // 加载视图文件
-            $template = $twig->load(self::$Route->controller . '/' . $file);
+            $template = $twig->load($Route->controller . '/' . $file);
             // 为视图加载变量，并输出视图。
-            echo $template->render($this->assignVars ? $this->assignVars : []);
+            return $template->render($this->assignVars ? $this->assignVars : []);
+        } else {
+            throw new \Exception('视图文件不存在');
         }
     }
 

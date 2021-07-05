@@ -16,26 +16,12 @@ use reporter\lib\Config;
 class Base
 {
     /**
-     * @var \reporter\lib\Request
-     */
-    public static $Request;
-
-    /**
-     * @var \reporter\lib\Route
-     */
-    public static $Route;
-
-    /**
      * 开启框架
      *
      * @param Application $app
      */
     public function run(Application $app)
     {
-        self::$Request = new Request();
-        $Route = new Route(self::$Request);
-
-        $Log = Log::init();
         try {
             // 加载环境变量
             $envFilePath = ROOT_PATH . '/.env';
@@ -64,26 +50,32 @@ class Base
             $actionName = $Route->action;
 
             // 实例化类
-            $Controller = new $controllerName($Route);
-            if (!empty($Route->queryParams)) {
-                // 调用函数并传递参数
-                Injection::make($controllerName, $actionName, $Route->queryParams);
-//                $app->make($controllerName);
+//            $Controller = new $controllerName($Route);
+            $Controller = new $controllerName($app);
+            $Controller->$actionName();
+//            if (!empty($Route->queryParams)) {
+//                // 调用函数并传递参数
+////                Injection::make($controllerName, $actionName, $Route->queryParams);
+////                $Controller = $app->make($controllerName);
+////                $Controller->{$actionName}($Route->queryParams);
+//
 //                call_user_func_array([$Controller, $actionName], $Route->queryParams);
-            } else {
-                // 只调用函数
-                Injection::make($controllerName, $actionName);
-//                $controller = $app->make($controllerName);
-
+//            } else {
+//                // 只调用函数
+////                $Controller = $app->make($controllerName);
+////                $Controller->{$actionName}();
+////                Injection::make($controllerName, $actionName);
+////                $controller = $app->make($controllerName);
+//
 //                $Controller->$actionName();
-            }
+//            }
         } catch (\Exception $e) {
             $error_info = [
                 'file' => $e->getFile(),
                 'line' => $e->getLine(),
                 'message' => $e->getMessage()
             ];
-            $Log::error($error_info);
+            Log::error($error_info);
 
             if (IS_DEBUG == true) {
                 $whoops = new \Whoops\Run;
@@ -93,13 +85,13 @@ class Base
                 $html = $whoops->handleException($e);
                 echo $html;
             }
-        } catch (\Error $e) {
+        } catch (\Throwable $e) {
             $error_info = [
                 'file' => $e->getFile(),
                 'line' => $e->getLine(),
                 'message' => $e->getMessage()
             ];
-            $Log::error($error_info);
+            Log::error($error_info);
 
             if (IS_DEBUG == true) {
                 $whoops = new \Whoops\Run;

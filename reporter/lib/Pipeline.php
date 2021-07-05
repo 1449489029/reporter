@@ -2,7 +2,8 @@
 
 namespace reporter\lib;
 
-use reporter\Base;
+use reporter\lib\Config;
+use reporter\lib\Route;
 
 // 管道
 class Pipeline
@@ -13,10 +14,19 @@ class Pipeline
     protected $Request;
 
     /**
+     * @var string 控制器命名空间
+     */
+    protected $controller;
+
+    /**
+     * @var string 方法名称
+     */
+    protected $action;
+
+    /**
      * @var array 中间件
      */
-    protected $middleware = [
-    ];
+    protected $middleware = [];
 
     /**
      * 设置请求
@@ -28,18 +38,32 @@ class Pipeline
     {
         $this->Request = $Request;
 
+
         return $this;
     }
 
     /**
      * 设置中间件
      *
-     * @param array $middleware 中间件
      * @return Pipeline
      */
-    public function setMiddleware(array $middleware)
+    public function setMiddleware()
     {
-        $this->middleware = $middleware;
+        // 查找当前请求的路由
+        $RouteData = Route::query($this->Request->method, $this->Request->uri);
+        $this->controller = $RouteData['controller'];
+        $this->action = $RouteData['action'];
+
+        // 查询所有已注册的中间件
+        $routeMiddlewares = Config::get('routeMiddlewares', 'app');
+
+        foreach ($RouteData['middleware'] as $middleware) {
+            if (isset($routeMiddlewares[$middleware]) == false) {
+                throw new \Exception('中间件不存在');
+            }
+
+            $this->middleware[] = $routeMiddlewares[$middleware];
+        }
 
         return $this;
     }
@@ -48,7 +72,7 @@ class Pipeline
      * 运行指定路由
      *
      * @param Application $app
-     * @retrun void
+     * @return mixed
      */
     public function run(Application $app)
     {
@@ -63,10 +87,26 @@ class Pipeline
             };
 
         }, function () use ($app) {
-            return (new Base())->run($app);
+            return $this->toRoute($app);
         });
 
-        $pipeline();
+        return $pipeline();
+    }
 
+    /**
+     * 运行路由
+     *
+     * @param Application $app
+     * @return mixed
+     */
+    protected function toRoute(Application $app)
+    {
+        $request = $app->make(Request::class);
+
+        // 实例化类
+        $Controller = new $this->controller($app);
+        $ResponseContent = $Controller->{$this->action}();
+
+        return $ResponseContent;
     }
 }

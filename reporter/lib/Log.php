@@ -11,17 +11,17 @@ class Log
     /**
      * @var mixed 实例
      */
-    public static $example = null;
+    public static $instance = null;
 
-    public static function init()
+    public static function instance()
     {
         $logConfig = Config::all('log');
         $typeNameSpace = '\reporter\lib\log\drive\\' . $logConfig['type'];
-        if (!self::$example instanceof $typeNameSpace) {
-            self::$example = new $typeNameSpace($logConfig);
+        if (!self::$instance instanceof $typeNameSpace) {
+            self::$instance = new $typeNameSpace($logConfig);
         }
 
-        return self::$example;
+        return self::$instance;
     }
 
     /**
@@ -32,9 +32,9 @@ class Log
      */
     public static function write($message)
     {
-        self::init();
+        self::instance();
 
-        self::$example::write($message);
+        self::$instance::write($message);
 
         return true;
     }
@@ -46,9 +46,9 @@ class Log
      */
     public static function writeAll()
     {
-        self::init();
+        self::instance();
 
-        self::$example::writeAll();
+        self::$instance::writeAll();
 
         return true;
     }
@@ -61,9 +61,9 @@ class Log
      */
     public static function record($message)
     {
-        self::init();
+        self::instance();
 
-        self::$example::record($message);
+        self::$instance::record($message);
 
         return true;
     }
@@ -76,9 +76,24 @@ class Log
      */
     public static function error($message)
     {
-        self::init();
+        self::instance();
 
-        self::$example::error($message);
+        self::$instance::error($message);
+
+        return true;
+    }
+
+    /**
+     * 记录普通日志
+     *
+     * @param mixed $message 记录的内容
+     * @return bool
+     */
+    public static function log($message)
+    {
+        self::instance();
+
+        self::$instance::log($message);
 
         return true;
     }

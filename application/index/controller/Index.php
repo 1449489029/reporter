@@ -21,13 +21,10 @@ use application\common\library\Export;
 class Index extends Controller
 {
 
-
-    public function index(Request $request)
+    public function index()
     {
-        echo $request->clientIP;
-        Log::record('222');
-        show('<h1>222</h1>');
-        echo 111;
+        $data = ['id' => 11];
+        return $data;
     }
 
     public function test_medoo()

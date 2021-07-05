@@ -139,28 +139,16 @@ class Response
     /**
      * 发送响应结果
      *
-     * @param string $ContentType 响应的内容格式类型 [default=self::CONTENT_TYPE_JSON]
      * @return void
      */
-    public function send($ContentType = self::CONTENT_TYPE_JSON)
+    public function send()
     {
-        if ($ContentType == self::CONTENT_TYPE_JSON) {
-            $this->setHeader('Content-type', 'application/json');
-            $this->withHeaders();
-            $this->withCookies();
+        $this->withHeaders();
+        $this->withCookies();
 
-            http_response_code($this->code);
+        http_response_code($this->code);
 
-            exit(json_encode($this->content));
-        } else {
-            $this->setHeader('Content-type', 'application/text');
-            $this->withHeaders();
-            $this->withCookies();
-
-            http_response_code($this->code);
-
-            exit($this->content);
-        }
+        exit($this->content);
     }
 
 

@@ -16,6 +16,8 @@
 // 定义常量
 
 // 项目更目录
+use reporter\lib\Response;
+
 define('ROOT_PATH', __DIR__ . '/..');
 // 核心文件目录
 define('CORE_PATH', ROOT_PATH . '/reporter');
@@ -62,21 +64,10 @@ require CORE_PATH . '/common/function.php';
 require CORE_PATH . '/Load.php';
 spl_autoload_register('\reporter\Load::bind');
 
-// 加载注册的服务
+// 加载框架启动文件
 $app = require_once ROOT_PATH . '/bootstrap/app.php';
 
-// 获取请求服务
-$Request = $app->make(reporter\lib\Request::class);
-
-
-// 进入管道开启框架
-(new reporter\lib\Pipeline())
-    ->setRequest($Request)
-    ->setMiddleware([
-        reporter\lib\middleware\BeforeRun::class,
-        reporter\lib\middleware\AfterRun::class
-    ])
-    ->run($app);
+$Response = (new \reporter\Kernel())->start($app)->send();
 
 
 

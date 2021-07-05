@@ -3,7 +3,7 @@
 namespace reporter\lib;
 
 use reporter\lib\Config;
-
+use Closure;
 
 /**
  * 用于解析访问的路由路径找到对应的控制器
@@ -12,87 +12,96 @@ use reporter\lib\Config;
  */
 class Route
 {
-    /**
-     * @var string $model 模块
-     */
-    public $model;
-
-    /**
-     * @var string 控制器名称
-     */
-    public $controller;
-
-    /**
-     * @var string 方法名称
-     */
-    public $action;
-
-    /**
-     * @param array 查询参数
-     */
-    public $queryParams = [];
+    // 请求方式
+    const METHOD_GET = 'GET';
+    const METHOD_POST = 'POST';
+    const METHOD_PUT = 'PUT';
+    const METHOD_DELETE = 'DELETE';
 
 
     /**
-     * 返回对应的控制器方法
-     * 需要在nginx中配置以下伪静态规则：
-     * if (!-e $request_filename) {
-     *     rewrite ^(.*)$ /index.php?s=$1 last;
-     *     break;
-     *  }
+     * @var array 配置的POST请求的路由集合
      */
-    public function __construct(\reporter\lib\Request $Request)
+    protected static $routes = [];
+
+
+    private function __construct()
     {
-        $this->model = Config::get('model', 'web');
-        $this->controller = Config::get('controller', 'web');
-        $this->action = Config::get('action', 'web');
-        $this->formatUrlParams($Request->uri);
+    }
+
+    /**
+     * 增加POST路由
+     *
+     * @param string $uri 路由
+     * @param string $controller 控制器命名空间
+     * @param string $action 方法名称
+     * @param string|array $middleware 中间件 [default=NULL]
+     * @return void
+     */
+    public static function post(string $uri, string $controller, string $action, $middleware = NULL): void
+    {
+        self::addRoute(self::METHOD_POST, $uri, $controller, $action, $middleware);
+    }
+
+    /**
+     * 增加GET路由
+     *
+     * @param string $uri 路由
+     * @param string $controller 控制器命名空间
+     * @param string $action 方法名称
+     * @param string|array $middleware 中间件 [default=NULL]
+     * @return void
+     */
+    public static function get(string $uri, string $controller, string $action, $middleware = NULL): void
+    {
+        self::addRoute(self::METHOD_GET, $uri, $controller, $action, $middleware);
     }
 
 
     /**
-     * 格式化URL参数
+     * 配置POST路由
      *
-     * @param string $url URL
+     * @param string $method 请求方式
+     * @param string $uri 路由
+     * @param string $controller 控制器命名空间
+     * @param string $action 方法名称
+     * @param string|array $middleware 中间件 [default=NULL]
      * @return void
      */
-    public function formatUrlParams($url)
+    public static function addRoute(string $method, string $uri, string $controller, string $action, $middleware = NULL): void
     {
-        $url = trim($url, '/');
-        if (!empty($url)) {
-            $urlArr = explode('?', $url);
-            $urlArr = explode('/', $urlArr[0]);
-        } else {
-            $urlArr = [];
-        }
-        $urlArrLen = count($urlArr);
-        if ($urlArrLen == 1) {
-            $this->model = $urlArr[0];
-        } else if ($urlArrLen == 2) {
-            $this->model = $urlArr[0];
-            $this->controller = $urlArr[1];
-        } else if ($urlArrLen == 3) {
-            $this->model = $urlArr[0];
-            $this->controller = $urlArr[1];
-            $this->action = $urlArr[2];
-        } else if ($urlArrLen >= 4) {
-            $this->model = $urlArr[0];
-            $this->controller = $urlArr[1];
-            $this->action = $urlArr[2];
-            $i = 3;
-            while ($urlArrLen > $i) {
-                // 收集参数
-                if (isset($urlArr[$i + 1])) {
-                    $this->queryParams[$urlArr[$i]] = urldecode($urlArr[$i + 1]);
-                }
-                $i = $i + 2;
+        if (is_null($middleware)) {
+            $middleware = [];
+        } else
+            if (is_string($middleware)) {
+                $middleware = [$middleware];
+            } else if (is_array($middleware)) {
+                $middleware = $middleware;
             }
+
+        self::$routes[$method][$uri] = [
+            'controller' => $controller,
+            'action' => $action,
+            'middleware' => $middleware
+        ];
+    }
+
+
+    /**
+     * 查询指定的路由
+     *
+     * @param string $method 请求的方式
+     * @param string $uri 路由
+     * @return array
+     */
+    public
+    static function query(string $method, string $uri)
+    {
+        if (isset(self::$routes[$method][$uri]) == false) {
+            throw new \Exception('路由不存在');
         }
 
-        // 将控制器名称的首字母转换为大写的
-        $this->controller = ucfirst($this->controller);
-
-        return;
+        return self::$routes[$method][$uri];
     }
 
 

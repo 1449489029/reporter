@@ -18,13 +18,9 @@ class BeforeRun
      */
     public function handle(Request $request, Closure $next)
     {
-        $request->clientIP = '0.0.0.0';
-
-        $Log = Log::init();
-
-        $Log::log('---------------------------------------------------------------');
+        Log::log('---------------------------------------------------------------');
         $headLog = '[ ' . date(DATE_ATOM) . ' ] ' . $request->clientIP . ' ' . $request->method . ' ' . $request->domain . $request->uri;
-        $Log::log($headLog);
+        Log::log($headLog);
 
         $Route = new Route($request);
 
@@ -34,11 +30,11 @@ class BeforeRun
             $Route->action
         ];
         $routeLog = '[ ROUTE ] ' . print_r($routeData, true);
-        $Log::record($routeLog);
+        Log::record($routeLog);
         $headerLog = '[ HEADER ] ' . print_r($request->getHeader(), true);
-        $Log::record($headerLog);
+        Log::record($headerLog);
         $paramsLog = '[ PARAM ] ' . print_r($request->getParams(), true);
-        $Log::record($paramsLog);
+        Log::record($paramsLog);
 
 
         return $next();

@@ -9,5 +9,11 @@ $app->bind(
     true
 );
 
+$app->bind(\reporter\lib\Route::class, function () use ($app) {
+    return new \reporter\lib\Route(
+        $app->make(reporter\lib\Request::class)
+    );
+}, true);
+
 
 return $app;
